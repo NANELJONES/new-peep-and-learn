@@ -1,0 +1,270 @@
+html,body{
+
+    margin: auto;
+    padding:0px;
+   
+    }
+.mission_container{
+    width:1280px;
+    height: 700px;
+    margin: 0px auto;
+    background-color:  #E5E5E5;
+    position: relative;
+    background-image: url("../../assets/map.svg");
+    background-repeat: no-repeat;
+    background-position: -27px 0px;
+    overflow: hidden;
+  
+  
+}
+
+.mission_container h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: right;
+    color: #FFFFFF;
+    position: relative;
+    left: 180px;
+    top: 220px;
+
+}
+
+.background_image{
+    width:43%;
+    height: 100%;
+  
+   
+    
+}
+
+
+.contact_left{
+    width:43%;
+    height:100%;
+    background-image: url("../../assets/map.svg");
+}
+
+
+
+.form{
+    width:60%;
+    height:60% ;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+.form_left{
+    width:60%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;;
+}
+
+.form_right{
+    width:40%;
+    height: 100%;
+    background-color: #0B77BE;
+    border-radius: 0px 20px 20px 0px;;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.send_message{
+    position: relative;
+    
+}
+
+
+
+h3.right_head{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 121.03%;
+    /* identical to box height, or 22px */
+    text-align: left;
+    color: #FFFFFF;
+    margin-top:20%;
+    width:100%;
+}
+
+
+.small_info{
+    width: 80%;
+    height: 80%;
+    margin: 0% auto;
+
+}
+.info_1 {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+
+    
+    
+    
+}
+
+.info_2 {
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    
+
+    
+    
+    
+}
+
+.info_2 i{
+    font-size: 25px;
+    color:rgba(255, 255, 255, 0.5);
+    
+}
+
+.info_1 img{
+    width:15px;
+    height: 15px;
+    padding-right: 10px;
+}
+.info_1 p{
+    
+    
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110.03%;
+    /* or 13px */
+    color: #FFFFFF;
+
+}
+
+
+
+.form_left_info{
+
+    width: 80%;
+    height: 80%;
+    margin: 0% auto;
+    
+  
+}
+
+
+h3.left_head{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 121.03%;
+    /* identical to box height, or 22px */
+    text-align: left;
+    width:100%;
+    color: #0B77BE;
+    margin-top:50px;
+}
+
+label{
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 121.03%;
+/* identical to box height, or 11px */
+
+
+color: #969696;
+}
+
+form{
+   
+    width:100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    margin-top: 30px;
+
+}
+
+input[type=text]{
+    all:unset;
+    border: none;
+    border-bottom: 0.5px solid #969696;
+    padding-top: 15px;
+    width:100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom:4px;
+    font-size: 12px;
+    line-height: 121.03%;
+    /* identical to box height, or 15px */
+
+
+    color: #1D1D1D
+    
+    ;
+        
+    
+}
+
+textarea{
+    outline:unset;
+    width: 100%;
+    border:none;
+    border-bottom: 0.5px solid #969696;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #1D1D1D;
+
+
+}
+
+.info_3{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap:10%;
+  
+   
+
+    
+}
+
+.hi{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+#send_btn{
+    position: absolute;
+    bottom:40%;
+    right:-35px;
+
+}
+
+#send_btn:hover{
+    cursor: pointer;
+}
+
+.send_message button{
+all:unset;
+}

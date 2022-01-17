@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<style>
+
+body{
+
+margin: 0px;
+padding: 0px;
+font-family: 'Poppins', sans-serif;
+font-weight: 1000;
+color: #0B77BE;
+
+}
+
+.container{
+margin: auto;
+padding:0px 30px;
+width:1280px;
+height:750px;
+background-color: #ECEFF1;
+}
+
+/*THIS IS FOR THE MAIN HEADER */
+.header{
+margin: auto;
+width: 95%;
+display: flex;
+height:10%;
+
+}
+
+nav{
+margin: auto;
+width:100%;
+background-color: transparent;
+display:flex;
+justify-content: space-between;
+
+
+}
+
+.image {
+display:flex;
+align-items: center;
+width:35%
+margin:0px;
+
+
+
+}
+
+nav .navlinks{
+position: relative;
+width: 60%;
+display:flex;
+flex-direction: rows;
+align-items:center;
+
+
+}
+
+
+nav ul{
+flex:3;
+display: flex;
+margin-left:0px;
+
+}
+
+
+nav ul li{
+
+display: inline-block;
+margin:10px;
+padding: 0px 5px;
+}
+
+button{
+margin:auto;
+font-family: Poppins;
+all:unset;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+height:35px;
+width:137px;
+text-align: center;
+cursor: pointer;
+color: white;
+background: linear-gradient( #0B77BE , #0C92DD );
+border-radius: 20px;
+
+}
+
+nav ul li a{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 121.03%;
+text-align: center;
+font-weight: 300;
+color: #0B77BE;
+color: black;
+list-style-type:none;
+text-decoration:none;
+}
+
+
+nav ul li a:active{
+	  color: #0B77BE;
+	 
+	  
+  }
+
+  
+ /*This is the end of the header*/
+.main_information{
+
+position: relative;
+top:40px;
+display:flex;
+justify-content: space-between;
+margin: auto;
+width: 95%;
+height:70%;
+}
+
+
+
+.left-side{
+width: 40%;
+height: 100%;
+
+}
+
+
+.left-side h1{
+color:#0B77BE;
+margin: 0px;
+font-size: 60px;
+line-height: 72px;
+font-weight: bold;
+
+}
+.left-side h6{
+color:#0B77BE;
+width:342px;
+margin: 0px;
+font-size: 60px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 28px;
+text-decoration:none;
+
+}
+
+#line{
+width: 20px;
+width: 93px;
+height: 6px;
+
+background: linear-gradient(#0B77BE 9.14%, #0C92DD 90.32%);
+}
+
+
+.left-side p{
+color: #1D1D1D;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+
+line-height: 18px;
+
+}
+
+.left-side button{
+position: absolute;
+width: 162px;
+height: 42px;
+color: white;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+
+
+background: linear-gradient(90deg, #0B77BE 12.08%, #0C92DD 84.9%);
+border-radius: 16px;
+
+}
+
+.right-side{
+margin-left:5%;
+border-radius:30px;
+overflow: hidden;
+width: 60%;
+overflow:hidden;
+}
+.slider{
+
+border-radius:30px;
+position: relative;
+display: flex;
+animation-name:slide-animation;
+animation-duration: 20s;
+animation-iteration-count:infinite;
+
+}
+
+.slide{
+border-radius:30px;
+padding-right: 2%;
+}
+.slider img{
+
+
+
+}
+
+
+@keyframes slide-animation{
+0%{right:0%;}
+10%{right:0%;}
+30%{right:97%;}
+40%{right:97%;}
+70%{right: 185%;}
+80%{right: 185%;}
+100%{right:0%;}
+
+
+}
+
+
+.footer{
+display: flex;
+width:97%;
+height:10%;
+flex-direction: row;
+margin-top:5%;
+
+
+}
+.footer ul{
+list-style:none;
+text-decoration: none;
+
+
+}
+
+.footer li{
+display: inline;
+padding:0px 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 121.03%;
+/* identical to box height, or 15px */
+
+text-align: center;
+}
+
+.footer li a{
+text-decoration: none;
+color: #1D1D1D;
+}
+
+
+
+
+i{
+color: #0B77BE;
+}
+
+</style>
+
+
+
+<body>
+
+<div class="container">
+	<div class="header">
+		<nav>
+			<div class="image">
+				<img src="page logo.png">
+			</div>
+			
+			<div class="navlinks">
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ProductDeals</a></li>
+					<li><a href="">Mission</a></li>
+					<li><a href="">PeepTribe</a></li>
+					<li><a href="">Contacts</a></li>
+					
+				</ul>
+				<button>Download App</button>
+			</div>    
+			
+		</nav>
+		
+	</div>
+	
+	
+<section class="main_information" >
+
+	<div class="left-side">
+	<h1>Peep<br>and Learn</h1>
+	<h6>An interactive educational hub</h6>
+	<br>
+	<br>
+	
+	<div id="line"> </div>
+	<br>
+	<br>
+	<p>that endeavors to connect students, parents and teachers on an innovative, fun and interactive platform for best results in our national academic curriculum. With our Home Tuition service, E-library and Online Tuition service, we help students learn the easy and convenient way.</p>
+	<br>
+	<br>
+	<button> Mission & Vision </button>
+	</div>
+	
+	<div class="right-side">
+	
+		<div class ="slider">
+			<div class="slide">
+				<img src="online tuition.png">
+			</div>
+			<div class="slide">
+				<img src="home tuition.png">
+			</div>
+			<div class="slide">
+				<img src="e library.png">
+			</div>
+				
+				
+		</div>
+	
+	</div>
+</section>
+
+<div class="footer">
+	<ul class="socials">
+		<li><a href="">		<i class="fab fa-facebook-f"></i>		</a></li>
+		<li><a href="">		<i class="fab fa-instagram"></i>		</a></li>
+		<li><a href="">		<i class="fab fa-twitter"></i>			</a></li>
+		<li><a href="">		<i class="fas fa-podcast"></i>			</a></li>
+		<li></li>
+		
+
+		<li><a href="">Peep News</a></li>
+		<li><a href="">FAQ</a></li>
+		<li><a href="">Careers</a></li>
+		<li><a href="">Legal</a></li>
+		<li><a href="">Jupe Global	</a></li>
+		
+	
+</div>
+
+
+</div>
+
+
+</body>
+</html>
