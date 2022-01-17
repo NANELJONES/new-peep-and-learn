@@ -29,7 +29,7 @@ function Home(){
             
                 <br/>
             
-              <Link to="/mission" ><button> Mission & Vision </button></Link>  
+              <Link to="/mission" ><button style={{fontFamily:"Poppins"}}> Mission & Vision </button></Link>  
                     
                 </div>
 
