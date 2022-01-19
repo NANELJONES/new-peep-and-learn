@@ -1,0 +1,209 @@
+html,body{
+
+    margin: auto;
+    padding:0px;
+   
+    }
+
+.peep_container{
+    
+    width:1280px;
+
+    margin:0px auto;
+    padding-top:0px;
+    background-color:  #ECEFF1;;
+    overflow: hidden;
+    
+  
+
+}
+
+.peep_top{
+    width:100%;
+    height:254px;
+    background-image: url("../../assets/image 11.svg");
+    background-position: center;  
+    display: inline-block;
+    
+}
+
+.peep_all{
+    margin:30px auto;
+    height:90%;
+    width:95%;
+    display: flex;
+    
+    padding:0px;
+}
+
+.peep_left{
+width:70%;
+height:95%;
+box-sizing: border-box;
+padding-top:0px;
+padding:0px;
+display: flex;
+flex-grow: 1;
+
+}
+
+
+.peep_right{
+    width:400px;
+    height:600px;
+    
+   
+   position:fixed;
+   margin-left:830px;
+  
+   
+    
+   
+    }
+
+div.stats_holder{
+  
+    margin: 10px auto;
+    text-align: center;
+    width:90%;
+    height:6%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius:7px;
+    display: flex;
+    flex-direction: column;
+  
+   
+    
+   
+   
+}
+div.stats_info{
+
+    margin:  auto;
+    width:90%;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+.a_left{
+    padding:10%;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width:50%;
+  
+    
+}
+
+div #short_line{
+  
+    width:4px;
+    height:35%;
+    margin: unset;
+    background-color: gray;
+  
+   
+
+}
+
+
+
+
+
+
+
+div.stats_info #peep_span{
+    all:unset;
+    font-size:12px;
+    color: gray;
+
+
+}
+
+div.stats_info h4{
+    all:unset;
+    color: rgb(15, 90, 252);
+    font-size:30px;
+    font-weight:600;
+}
+
+
+
+
+
+
+
+
+
+
+div.stats_holder #peep_span{
+    all:unset;
+    font-size:12px;
+    color: gray;
+
+
+}
+
+
+nav .peep_tribe_lower{
+    width:70%;
+    margin: 0px auto;
+ 
+    position:relative;
+    bottom:0px;
+}
+
+ul.sub_nav{
+   
+width:30%;
+height:20%;
+display: flex;
+background-color: transparent;
+margin:16% auto 0px auto;
+position: relative;
+bottom:0px;
+justify-content: space-between;
+align-items: center;
+flex:1;
+
+
+
+
+
+}
+ul.sub_nav li{
+    margin: auto;
+    padding:0px 15px;
+    padding: 10px 20px;
+    list-style-type: none;
+
+    
+
+
+    
+}
+
+ul.sub_nav li button{
+    
+   border:none;
+    width:130px;
+    height:33px;
+    background-color: transparent;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 121.03%;
+    /* identical to box height, or 17px */
+    color: #F1F1F1;
+    /* identical to box height, or 17px */
+    
+    cursor: pointer;
+}
+

@@ -1,0 +1,119 @@
+div.stats_holder{
+  
+    margin: 10px auto;
+    text-align:center;
+    width:350px;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius:7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    
+  
+    
+   
+   
+}
+div.stats_info{
+
+    margin:  auto;
+    width:90%;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+
+
+.a_left{
+    
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width:50%;
+  
+    
+}
+
+div #short_line{
+  
+    width:4px;
+    height:40%;
+    margin: unset;
+    background-color: gray;
+  
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+div.stats_info h4{
+    all:unset;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 121.03%;
+    /* identical to box height, or 34px */
+    
+    
+    color: #0B77BE;
+}
+
+
+
+
+
+
+
+
+
+
+div.stats_holder #peep_span{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 121.03%;
+    /* identical to box height, or 11px */
+    color: #555555;
+
+
+}
+
+
+
+.b_left{
+    padding-left:10%;
+    padding-right:10%;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:50%;
+
+   
+  
+    
+}
+
+.b_left i{
+    font-size:25px;
+    color: #555555;
+}

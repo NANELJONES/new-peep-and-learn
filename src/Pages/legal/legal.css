@@ -1,0 +1,191 @@
+body{
+    margin:0px;
+    padding:0px;
+    all:unset;
+  
+
+}
+
+
+
+.legal_body{
+    width:1290px;
+    height:720px;
+    background-color: #ECEFF1;
+  
+    
+    
+
+
+}
+
+.legal_container{
+    width:94%;
+    height:80%;
+
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.legal_left{
+    width:20%;
+
+    
+}
+
+
+.legal_left ul{
+    
+    all:unset;
+    height:30%;
+    width:auto;
+    position: relative;
+    top:30%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+
+}
+.legal_left ul button{
+   
+    cursor: pointer;
+    padding:15px 20px;
+    width:80%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 121.03%;
+   
+
+    
+    /* identical to box height, or 17px */
+
+    text-align: center;
+    
+   
+   
+}
+
+
+.legal_changer{
+   
+    background-color: #0B77BE;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    border:none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 121.03%;
+    /* identical to box height, or 17px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+.button_style{
+    all:unset;
+    padding:15px 35px;
+    width:100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 121.03%;
+    border:unset;
+    background-color: none;
+    /* identical to box height, or 17px */
+
+    text-align: center;
+    color: #1D1D1D;
+
+}
+
+
+
+
+.legal_left h2{
+    all:unset;
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #0B77BE;
+
+}
+
+
+
+.legal_right{
+    width:70%;
+    background: #ECEFF1;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: -8px -8px 20px rgba(255, 255, 255, 0.8), 8px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding:0px 30px;
+    padding-top:20px;
+    overflow: auto;
+    
+    
+}
+
+.policy_subhead h2{
+    
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+
+color: #1D1D1D;
+}
+
+.policy_subhead p{
+   
+   
+    position: relative;
+    top:-15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 370;
+    font-size: 12px;
+    line-height: 18px;
+    
+    color: #1D1D1D;
+    
+}
+.policy_subhead{
+    
+    margin-top:40px;
+    all:unset;
+    text-align: justify;
+    
+ 
+}
+
+
+#last_p{
+    position: relative;
+    top:-30px;
+}
+#last_p1{
+    position: relative;
+    top:-40px;
+}

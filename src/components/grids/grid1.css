@@ -1,0 +1,97 @@
+
+
+.grid_container1 {
+ 
+    margin:0px auto;
+   
+    width: 830px;
+    height: 520px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+  
+}
+
+
+.item1{
+
+width:68%;
+height:50%;
+overflow: hidden;
+}
+
+
+.item1 img{
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.item2{
+   
+    width:30%;
+    height:50%;
+    
+    overflow: hidden;
+}
+
+
+
+
+.item2 img{
+    width:100%;
+    object-fit: cover;
+    height:120%;
+}
+
+.item3{
+    
+    width:23%;
+    height:45%;
+    text-align:center;
+    overflow: hidden;
+
+}
+
+
+.item3 img{
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
+
+
+
+.item4{
+   
+    width:23%%;
+    height:45%;
+    text-align:center;
+    overflow: hidden;
+
+}
+
+
+.item4 img{
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
+.item5{
+    
+    width:50%;
+    height:45%;
+    text-align:center;
+    color: white;
+    overflow: hidden;
+
+}
+
+
+.item5 img{
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
