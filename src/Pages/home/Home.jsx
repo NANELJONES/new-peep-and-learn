@@ -16,8 +16,11 @@ function Home(){
        
             <div className="main_information">
                 <div className="left">
-                    
-                <h1>Peep<br/>and Learn</h1>
+                <div className="peep">
+                    <h1>Peep  </h1>
+                    <h1> and Learn </h1>
+                </div>
+                
                 <h6>An interactive educational hub</h6>
                 
                 <br/>

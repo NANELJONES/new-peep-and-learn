@@ -73,7 +73,7 @@ body{
     cursor: pointer;
     color: white;
     background: linear-gradient( #0B77BE , #0C92DD );
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 
@@ -175,4 +175,110 @@ body{
     color: #0B77BE;
 
 
+}
+
+.mobile_menu{
+    visibility: hidden;
+}
+
+
+@media (max-width:769px){
+   
+  
+    .header_nav {
+        visibility: hidden;
+        width:768px;
+       
+        padding: 0px;
+        margin-top:0px;
+        height:100%;
+        z-index: 200;
+        border:1px solid blue;
+        display: flex;
+        align-items: flex-start  ;
+        flex-direction: row-reverse;
+        background-color: rgba(0,0,0,0.3);
+       
+   
+    }
+
+    .header_nav .main_logo{
+        position:absolute;
+        right:50%;
+        
+       
+    }
+    
+   
+
+    .mobile_menu{
+        
+        width:40px;
+        visibility: visible;
+        
+    }
+
+    
+.navlinks{
+    
+    box-sizing: border-box;
+    margin:0px;
+    position: absolute;
+    left:0px;
+    background: #ECEFF1;
+    height:100%;
+    width:30%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top:10px;
+    padding-left:10px;
+    gap:20px;
+  
+  
+ 
+    
+    
+   
+    
+}
+
+.header_nav ul{ 
+    
+    border:none;
+    border-top:1px solid rgb(218, 218, 218);
+    box-sizing: border-box;
+    width:95%;
+    height:25%;
+    padding:0px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin:0px;
+    gap:10px;
+    overflow: hidden;
+ 
+}
+
+
+.Nav_Link{
+    color:rgb(61, 61, 61);
+    width:3px;
+    font-size: 12px;
+    line-height: 121.03%;
+    text-align: left;
+    font-weight: bold;
+   
+}
+
+
+.header_btn{
+   
+    margin:0px;
+  
+}
+
+
+   
 }

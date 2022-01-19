@@ -7,6 +7,7 @@ import Backdrop from "../Backdrop";
 import Modal from "../../components/Modal/Modal.jsx"
 import logo from "../../assets/page logo.svg";
 import whitelogo from "../../assets/logowhite.svg";
+import mobile_menu from "../../assets/mobile_menu.png";
 import {useContext} from "react";
 
 
@@ -37,8 +38,10 @@ function Header(props){
 		
 		<nav className="header_nav">
 			<div className={classes.image}>
-				<a href="/"><img src={ logo}	/></a> 
+				<a href="/"><img className="main_logo" src={ logo}	/></a> 
+				
 			</div>
+			<img className ="mobile_menu" src={mobile_menu} alt="" />
 			
 			<div className="navlinks">
 				<ul className="header_list">
@@ -53,6 +56,8 @@ function Header(props){
 					<li><NavLink  to="/contact"		className= "Nav_Link"		 >Contact</NavLink></li>
 					
 				</ul>
+
+				
 
 				<button style={{
 				fontFamily: "Poppins",
@@ -109,8 +114,10 @@ function Header1(props){
 		
 		<nav className="header_nav">
 			<div className={classes.image}>
-				<a href="/"><img src={changes? whitelogo : logo}	/></a> 
+				<a href="/"><img className="main_logo" src={changes? whitelogo : logo }	/></a> 
 			</div>
+			
+			
 			
 			<div className="navlinks">
 				<ul className="header_list">
@@ -125,17 +132,8 @@ function Header1(props){
 						
 							color: peepValue ? "white" : null,
 							borderBottom:peepValue ? "3px solid white" :null,
-							borderBottomRadius:peepValue ? "5px" :null,
-							
-
-						})}
-							
-
-					
-					
-
-					
-														
+							borderBottomRadius:peepValue ? "5px" :null,		
+						})}											
 					onClick={()=>{setPeepValue(true);setChanges(true) }}	
 					>Peep Tribe</NavLink></li>
 					
@@ -236,20 +234,15 @@ function Header2(props){
 							borderBottomRadius:peepValue ? "5px" :null,
 							
 
-						})}
-							
-
-					
-					
-
-					
-														
-					onClick={()=>{setPeepValue(true);setChanges(true) }}	
+						})} onClick={()=>{setPeepValue(true);setChanges(true) }}	
 					>Peep Tribe</NavLink></li>
 					
 					<li><NavLink  to="/contact"		className={peepValue ? "Nav_Link_white" : "Nav_Link"}			onClick={()=>{changeHome(); setPeepValue(false)}} >Contact</NavLink></li>
 					
 				</ul>
+				
+
+				
 
 				<button style={{
 				fontFamily: "Poppins",
@@ -259,6 +252,37 @@ function Header2(props){
 				}}	className={peepValue ? "header_btn_white" : "header_btn"} onClick={showOption}>Download App</button>
 
 			</div>   
+
+
+
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			
 	
 		</nav>
@@ -272,39 +296,6 @@ function Header2(props){
 
     );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
