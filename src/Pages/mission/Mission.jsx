@@ -7,6 +7,7 @@ import boy from "../../assets/IMG_6770 1.svg"
 import bulb_icon from "../../assets/icon.svg"
 import vision from "../../assets/vision icon.svg"
 import goals from "../../assets/goalsicon.svg"
+
 function Mission(){
 
     return(

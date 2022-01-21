@@ -2,18 +2,23 @@ import React from "react";
 import {Link,NavLink } from "react-router-dom";
 import classes from "./header.css";
 import DownloadOption from "../../components/downloadOptions/DownloadOptions.jsx"
+import Modal2 from "../Modal/Modal2";
 import {useState} from "react"
 import Backdrop from "../Backdrop";
 import Modal from "../../components/Modal/Modal.jsx"
 import logo from "../../assets/page logo.svg";
 import whitelogo from "../../assets/logowhite.svg";
 import mobile_menu from "../../assets/mobile_menu.png";
+import mobile_menu_white from "../../assets/mobile_menu_white.svg";
 import {useContext} from "react";
+import instagram from "../../assets/IG.svg"
+import instagram1 from "../../assets/IG1.svg"
 
 
 
 
 function Header(props){
+	const [MobileValue, showMobileValue] = useState(false);
 	
 	const [showDownloadOptions , setDownloadOptions]= useState(false)
 	const [ModalValue, setModalValue] = useState(false)
@@ -25,7 +30,7 @@ function Header(props){
 
 	function showOption(){
 		
-		setModalValue(!ModalValue);
+		setModalValue(true);
 		setDownloadOptions(!showDownloadOptions);
 	}
 
@@ -34,45 +39,65 @@ function Header(props){
 
     return(
 		<div>
-		
-		
-		<nav className="header_nav">
-			<div className={classes.image}>
-				<a href="/"><img className="main_logo" src={ logo}	/></a> 
-				
-			</div>
-			<img className ="mobile_menu" src={mobile_menu} alt="" />
 			
-			<div className="navlinks">
-				<ul className="header_list">
-					<li ><NavLink to="/"	className="Nav_Link"	  >Home</NavLink></li>
+		
+		
+		<nav className= "header_nav">
+			<div className={classes.image}>
+				<a href="/"><img className="main_logo" src={logo}	/></a> 
+			</div>
 
-					<li><NavLink  to="/productDeals"		className="Nav_Link"			>Product Details</NavLink></li>
-					
-					<li><NavLink  to="/mission"		className= "Nav_Link"				>Mission & Vision</NavLink></li>
+			<img className ="mobile_menu" src={mobile_menu} alt="Image Not Found" onClick={()=>{showMobileValue(true)}}/>
+			
+			<div className= { MobileValue ? "navlinks animate": "navlinks"} onClick={()=>{showMobileValue(false)}} >
+					<div className="header_socials_link">
+						<li><a href="">		<i className="fab fa-facebook-f"></i>		</a></li>
+						<li><a href="">		<img src={instagram} style={{width:"16px",margin:"auto"}}/>		</a></li>
+						<li><a href="">		<i className="fab fa-twitter"></i>			</a></li>
+						<li><a href="">		<i className="fas fa-podcast"></i>			</a></li>
+						<li></li>
+					</div>
 
-					<li><NavLink  to="/peepTribe"		className= "Nav_Link">Peep Tribe</NavLink></li>
-					
-					<li><NavLink  to="/contact"		className= "Nav_Link"		 >Contact</NavLink></li>
-					
-				</ul>
+					<ul className="footer_links">
 
+						<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep News</Link></li>
 				
+						<li><Link to="/faq"		className="Nav_Link"		 	>FAQ</Link></li>
+					
+						<li><a href="" >Careers</a></li>
+					
+						<li><Link to="/legal"		className="Nav_Link"			>Legal</Link></li>
+						
+						<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
 
-				<button style={{
-				fontFamily: "Poppins",
-				fontStyle: "normal",
-				fontWeight: "600",
-				fontSize: "11px",
-				}}	className={ "header_btn"} onClick={showOption}>Download App</button>
+					</ul>
 
+					<ul className="header_list">
+						<li ><NavLink to="/"	className="Nav_Link"	  >Home</NavLink></li>
+
+						<li><NavLink  to="/productDeals"		className="Nav_Link"			>Product Details</NavLink></li>
+						
+						<li><NavLink  to="/mission"		className= "Nav_Link"				>Mission & Vision</NavLink></li>
+
+						<li><NavLink  to="/peepTribe"		className= "Nav_Link">Peep Tribe</NavLink></li>
+						
+						<li><NavLink  to="/contact"		className= "Nav_Link"		 >Contact</NavLink></li>
+						
+					</ul>
+
+				<button style={{fontFamily: "Poppins",fontStyle: "normal",fontWeight: "600",	fontSize: "11px",	}}	className={ "header_btn"} onClick={showOption}>Download App</button>
 			</div>   
 			
 	
 		</nav>
 		
+		
 		{showDownloadOptions ? <DownloadOption onClick={showOption } /> : null }
-		{ModalValue ? <Modal onClick={showOption}/> : null}
+		{showDownloadOptions ? <Modal onClick={()=>{setDownloadOptions(false)} } /> : null }
+		
+		
+	
+		{MobileValue ? <Modal onClick={()=>{showMobileValue(false)}}/> : null}
 
 
 		</div>
@@ -91,7 +116,7 @@ function Header1(props){
 	const [showDownloadOptions , setDownloadOptions]= useState(false)
 	const [ModalValue, setModalValue] = useState(false)
 	const [changes , setChanges] = useState(true); 
-
+	const [MobileValue, showMobileValue] = useState(false);
 	const [peepValue , setPeepValue] = useState(false); 
 	
 
@@ -116,12 +141,37 @@ function Header1(props){
 			<div className={classes.image}>
 				<a href="/"><img className="main_logo" src={changes? whitelogo : logo }	/></a> 
 			</div>
+			<img className ="mobile_menu" src={mobile_menu_white} alt="Image Not Found" onClick={()=>{showMobileValue(true)}}/>
 			
 			
+			<div className= { MobileValue ? "navlinks animate": "navlinks"} onClick={()=>{showMobileValue(false)}} >
 			
-			<div className="navlinks">
+				<div className="header_socials_link">
+						<li><a href="">		<i className="fab fa-facebook-f"></i>		</a></li>
+						<li><a href="">		<img src={instagram} style={{width:"16px",margin:"auto"}}/>		</a></li>
+						<li><a href="">		<i className="fab fa-twitter"></i>			</a></li>
+						<li><a href="">		<i className="fas fa-podcast"></i>			</a></li>
+						<li></li>
+				</div>
+			
+				<ul className="footer_links">
+
+					<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep News</Link></li>
+
+					<li><Link to="/faq"		className="Nav_Link"		 	>FAQ</Link></li>
+
+					<li><a href="" >Careers</a></li>
+
+					<li><Link to="/legal"		className="Nav_Link"			>Legal</Link></li>
+
+					<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
+
+				</ul>
+
+
+			
 				<ul className="header_list">
-					<li ><NavLink to="/"	className= "Nav_Link"	  id="home_change" onClick={()=>{setChanges(false)}}>Home</NavLink></li>
+					<li ><NavLink to="/"	className= "Nav_Link"	  id={showMobileValue?"home_change1":"home_change"} onClick={()=>{setChanges(false)}}>Home</NavLink></li>
 
 					<li><NavLink  to="/productDeals"		className={peepValue ? "Nav_Link_white" : "Nav_Link"}		onClick={()=>{setChanges(false); setPeepValue(false)}}	>Product Details</NavLink></li>
 					
@@ -141,6 +191,10 @@ function Header1(props){
 					
 				</ul>
 
+
+
+
+
 				<button style={{
 				fontFamily: "Poppins",
 				fontStyle: "normal",
@@ -154,7 +208,11 @@ function Header1(props){
 		</nav>
 		
 		{showDownloadOptions ? <DownloadOption onClick={showOption } /> : null }
-		{ModalValue ? <Modal onClick={showOption}/> : null}
+		{showDownloadOptions ? <Modal onClick={()=>{setDownloadOptions(false)} } /> : null }
+		
+		
+	
+		{MobileValue ? <Modal onClick={()=>{showMobileValue(false)}}/> : null}
 
 
 		</div>

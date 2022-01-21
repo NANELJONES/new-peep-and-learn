@@ -8,7 +8,9 @@ import {Footer} from "../../components/footer/Footer";
 import side_monitor_icon from "../../assets/side_monitor_icon.svg";
 import {Link} from "react-router-dom";
 
+
 function Home(){
+   
 
     return(
         <div className="home_container">

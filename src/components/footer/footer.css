@@ -122,5 +122,12 @@ color: #0B77BE;
     }
 
 
-
+@media (max-width:769px){
+    .footer{
+        display: none;
+    }
+    .footer1{
+        display: none;
+    }
+}
     

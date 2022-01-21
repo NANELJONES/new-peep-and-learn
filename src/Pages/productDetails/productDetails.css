@@ -2,9 +2,9 @@ body,html{
    
     padding: auto;
     margin: auto;
-    
     width:1280px;
-    height:700px;
+    height:auto;
+  
    
   
  
@@ -12,15 +12,18 @@ body,html{
 
 .pd_container{
     
-    width:1280px;
-    height:700px;
-    background-color:  #E5E5E5;;
+    width:100%;
+    height:auto;
+    background: #ECEFF1;
+
+    overflow: hidden;
 
  
 }
 
 .all_info_container{
-    
+    padding-top:90px;
+    padding-bottom:90px;
   
     width:80%;
     height: 70%;
@@ -110,7 +113,63 @@ color: #000000;
     box-shadow: -8px -8px 20px rgba(255, 255, 255, 0.8), 8px 8px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
-    
     flex-direction: row;
 
+}
+
+
+.peep_tech{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:769px){
+    body,html{
+        width:769px;
+        height:100%;
+    }
+
+    .information1{
+        margin:auto;
+      
+    }
+   
+    .information2{
+        margin:auto;
+        height:90%;
+        width:80%;
+       
+    }
+
+    .key_partners{
+        width:90%;
+        height:3%;    
+    }
+
+
+  
+}
+
+
+@media(max-width:481px){
+
+    .information2{
+        display: flex;
+        flex-direction: column;
+
+      
+    }
+ 
 }

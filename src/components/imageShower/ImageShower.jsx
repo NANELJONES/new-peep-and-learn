@@ -25,10 +25,10 @@ function ImageShower(props) {
 
 function ImageShower1(props) {
     return (
-        <div className="image_holder">
-            <div className="image_box">
+        <div className="image_holder1">
+            <div className="image_box1">
                  <img src={props.pd__img_1}/>
-                  <img src={props.pd__img_2} style={{width:"90%"}} />
+                  <img src={props.pd__img_2}  />
                
             </div>
         </div>

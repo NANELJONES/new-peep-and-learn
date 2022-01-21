@@ -35,7 +35,7 @@ const PeepNews = () => {
                     
                 
                             <div className="peep_news_1">
-                            <Link to="/peep_news_ui" style={{all:"unset"}}>  <div style={{backgroundImage:`url(${news1})`,backgroundSize:"120%", backgroundPosition:"center",}}className="news_1">
+                            <Link to="/peep_news_ui" style={{all:"unset"}}>  <div style={{backgroundImage:`url(${news1})`,backgroundSize:"120%", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}className="news_1">
                                     <p>We have capacity to<br/>scale up online<br/>learning</p>
                                  </div>
                             </Link>  

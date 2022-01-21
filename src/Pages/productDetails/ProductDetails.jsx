@@ -191,7 +191,7 @@ function ProductDetails(){
 
                   <div style={{
                       backgroundColor:"#0B77BE",
-                  }} className="information1">
+                  }} className="information1 key_partners">
                       <div className="top_part">
                             <h2 style={{
                                 color:"white",
@@ -206,13 +206,13 @@ function ProductDetails(){
 
 
 
-                  <div className="information2">
+                  <div className="information2 info_2">
                             <div style={{
                                 borderRadius:"unset",
                                 backgroundColor:"transparent",
                                 boxShadow:"none",
                                 border:"none"
-                            }} className="information1">
+                            }} className="information1 ">
                                 <div className="top_part">
                                       
                                         <h2 style={{
@@ -233,6 +233,9 @@ function ProductDetails(){
                                 boxShadow:"none",
                                 border:"none"
                             }} className="information1">
+
+
+
                                 <div className="top_part">
                                       
                                       

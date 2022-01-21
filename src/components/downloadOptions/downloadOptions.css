@@ -17,8 +17,8 @@ body,html{
 
 .holder{
     margin:auto;
-    width: 700px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     position: fixed;
     border-radius: 30px;
     padding-top: 0px;
@@ -58,6 +58,7 @@ body,html{
     position: relative;
     top:30px;
     left: 35px;
+    
     
 }
 
@@ -149,3 +150,125 @@ body,html{
 
 
 }
+
+
+
+@media (max-width:789px){
+   .holder{
+        width:600px;
+    }
+
+
+    .top h4{
+        left: 20px;
+    }
+
+
+
+    .download_right h4{
+width:70%;
+    }
+    
+    
+}
+
+
+@media (max-width:481px){
+    .holder{
+         width:400px;
+         height:700px;
+        
+     }
+
+     .bottom{
+        flex-direction: column;
+        height:900px;
+        gap:10px;
+     }
+     .download_left {
+         width:60%;
+         height:50%;
+     }
+     .download_left img{
+         width:150px;
+     }
+    
+    .top h4{
+        font-size: 20px;
+        top:30px;
+        left:20px; 
+    }
+ 
+     .download_right h4{
+        width:70%;
+     }
+ 
+     .download_right {
+        width:60%;
+        height:50%;
+    }
+    .download_right img{
+        width:150px;
+    }
+   
+   .top h4{
+       font-size: 20px;
+       top:30px;
+       left:20px; 
+   }
+
+    .download_right h4{
+       width:70%;
+    }
+    
+     
+ }
+
+ 
+@media (max-width:320px){
+    .holder{
+         width:250px;
+         height:700px;
+        
+     }
+
+     .bottom{
+        flex-direction: column;
+        height:1000px;
+        gap:10px;
+     }
+     .download_left {
+         width:80%;
+         height:50%;
+     }
+     .download_left img{
+         width:150px;
+     }
+    
+ 
+     .download_right h4{
+        width:70%;
+     }
+ 
+     .download_right {
+        width:80%;
+        height:50%;
+    }
+    .download_right img{
+        width:150px;
+    }
+   
+   .top h4{
+       font-size: 15px;
+       top:30px;
+       left:10px; 
+   }
+
+    .download_right h4{
+       width:70%;
+    }
+    
+     
+ }
+
+

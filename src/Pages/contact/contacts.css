@@ -1,42 +1,54 @@
 html,body{
 
-    margin: auto;
+    
     padding:0px;
+    margin:0px;
    
     }
-.mission_container{
+.contact_box{
+
     width:1280px;
     height: 700px;
     margin: 0px auto;
     background-color:  #E5E5E5;
-    position: relative;
     background-image: url("../../assets/map.svg");
     background-repeat: no-repeat;
     background-position: -27px 0px;
-    overflow: hidden;
+
   
   
 }
 
-.mission_container h1{
+
+.contact_container{
+    width:70%;
+    height:80%;
+   
+    margin:auto;
+    display: flex;
+    align-items: center;
+    flex:1 1 100px;
+ 
+  
+ 
+}
+
+
+.get_in_touch{
+    
+   width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+
+
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 20px;
     text-align: right;
     color: #FFFFFF;
-    position: relative;
-    left: 180px;
-    top: 220px;
-
-}
-
-.background_image{
-    width:43%;
-    height: 100%;
-  
-   
-    
 }
 
 
@@ -46,15 +58,13 @@ html,body{
     background-image: url("../../assets/map.svg");
 }
 
-
-
 .form{
-    width:60%;
-    height:60% ;
+    width:80%;
+    height:70% ;
     margin: auto;
     border-radius: 20px;
     display: flex;
-    
+       
 }
 
 .form_left{
@@ -80,7 +90,15 @@ html,body{
     
 }
 
-
+.all_contact_details{
+    margin:auto;
+    width:90%;
+    height:70%;
+    display: block;
+ 
+   
+    
+}
 
 h3.right_head{
     font-family: Poppins;
@@ -98,8 +116,9 @@ h3.right_head{
 
 .small_info{
     width: 80%;
-    height: 80%;
+    height: 60%;
     margin: 0% auto;
+
 
 }
 .info_1 {
@@ -110,8 +129,6 @@ h3.right_head{
     margin: auto;
 
     
-    
-    
 }
 
 .info_2 {
@@ -119,13 +136,10 @@ h3.right_head{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
-    
 
     
-    
-    
 }
+
 
 .info_2 i{
     font-size: 25px;
@@ -149,8 +163,6 @@ h3.right_head{
     color: #FFFFFF;
 
 }
-
-
 
 .form_left_info{
 
@@ -217,7 +229,7 @@ input[type=text]{
 
     color: #1D1D1D
     
-    ;
+   
         
     
 }
@@ -239,7 +251,7 @@ textarea{
 .info_3{
     display: flex;
     align-items:flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap:10%;
   
    
@@ -248,6 +260,7 @@ textarea{
 }
 
 .hi{
+    width:50%;
     display: flex;
     flex-direction: column;
    
@@ -267,4 +280,346 @@ textarea{
 
 .send_message button{
 all:unset;
+}
+
+
+@media (max-width:769px){
+    .contact_box{
+        width:769px;
+        height:1000px;
+        background-image: url("../../assets/map.svg");
+        background-position: 0 -600px;
+        background-size: cover;
+       
+        
+    }
+
+    .contact_container{
+        width:100%;
+      
+        flex-direction: column;
+    }
+    .get_in_touch{
+        flex-direction: row;
+        text-align: center;
+        margin-right: 70px;
+     
+       
+ 
+       
+    }
+
+    .get_in_touch h3{
+        
+       
+        font-family: Poppins;
+        
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 110.03%;
+        text-align: center;
+
+        color: #FFFFFF;
+            
+    }
+    .form{
+    
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        height: 100%;
+    
+ 
+    }
+
+    .form_left{
+        border-radius: 20px 20px 0px 0px;;
+        width:80%;
+        height:55%;
+    }
+    .form_left_info h3{
+        text-align: center;
+    }
+
+    .form_right{
+        border-radius: 00px 00px 20px 20px;;
+        width:80%;
+
+        height:45%;
+        
+        
+
+    }
+
+    .all_contact_details{
+        margin:auto;
+        width:90%;
+        height:70%;
+        display: flex;
+     
+        
+    }
+    .small_info{
+  
+        width: 90%;
+        height:100%;
+      
+       
+        
+
+    }
+
+    .small_info div:not(:first-child){
+        margin-top:23px;
+    }
+
+    
+
+    .info_1{
+       
+    }
+
+    h3.right_head{
+        margin-top:20px;
+        text-align: center;
+        
+    }
+.info_2{
+    
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ 
+}
+
+@media (max-width:481px){
+    .contact_box{
+        width:481px;
+        height:1000px;
+        background-image: url("../../assets/map.svg");
+        background-position: 0 -600px;
+        background-size: cover;
+       
+        
+    }
+
+    .contact_container{
+        width:100%;
+      
+        flex-direction: column;
+    }
+    .get_in_touch{
+        flex-direction: row;
+        text-align: center;
+        margin-right: 150px;
+     
+       
+ 
+       
+    }
+
+    .get_in_touch h3{
+        
+       
+        font-family: Poppins;
+        
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 110.03%;
+        text-align: center;
+
+        color: #FFFFFF;
+            
+    }
+    .form{
+    
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        height: 100%;
+    
+ 
+    }
+
+    .form_left{
+        border-radius: 20px 20px 0px 0px;;
+        width:80%;
+        height:55%;
+    }
+    .form_left_info h3{
+        text-align: center;
+    }
+
+    .form_right{
+        border-radius: 00px 00px 20px 20px;;
+        width:80%;
+
+        height:45%;
+        
+        
+
+    }
+
+    .all_contact_details{
+        margin:auto;
+        width:90%;
+        height:70%;
+        display: flex;
+     
+        
+    }
+    .small_info{
+  
+        width: 90%;
+        height:100%;
+      
+       
+        
+
+    }
+
+    .small_info div:not(:first-child){
+        margin-top:23px;
+    }
+
+    
+
+    .info_1{
+       
+    }
+
+    h3.right_head{
+        margin-top:20px;
+        text-align: center;
+        
+    }
+.info_2{
+    
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ 
+}
+
+@media (max-width:319px){
+    .contact_box{
+        width:319px;
+        height:1000px;
+        background-image: url("../../assets/map.svg");
+        background-position: 0 -600px;
+        background-size: cover;
+       
+        
+    }
+
+    .contact_container{
+        width:100%;
+      
+        flex-direction: column;
+    }
+    .get_in_touch{
+        flex-direction: row;
+        text-align: center;
+        margin-right: 150px;
+     
+       
+ 
+       
+    }
+
+    .get_in_touch h3{
+        
+       
+        font-family: Poppins;
+        
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 110.03%;
+        text-align: center;
+
+        color: #FFFFFF;
+            
+    }
+    .form{
+    
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        height: 100%;
+    
+ 
+    }
+
+    .form_left{
+        border-radius: 20px 20px 0px 0px;;
+        width:80%;
+        height:55%;
+    }
+    .form_left_info h3{
+        text-align: center;
+    }
+
+    .form_right{
+        border-radius: 00px 00px 20px 20px;;
+        width:80%;
+
+        height:45%;
+        
+        
+
+    }
+
+    .all_contact_details{
+        margin:auto;
+        width:90%;
+        height:70%;
+        display: flex;
+     
+        
+    }
+    .small_info{
+  
+        width: 90%;
+        height:100%;
+      
+       
+        
+
+    }
+
+    .small_info div:not(:first-child){
+        margin-top:23px;
+    }
+
+    
+
+    .info_1{
+       
+    }
+
+    h3.right_head{
+        margin-top:20px;
+        text-align: center;
+        
+    }
+.info_2{
+    
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#send_btn{
+    position: absolute;
+    bottom:40%;
+    right:-25px;
+
+}
+ 
 }
