@@ -1,0 +1,88 @@
+.internship_post{
+    width:100%;
+    height:auto;
+    border:1px solid black;
+    border-radius:10px;
+ 
+   margin-top: 10px;;
+   display: flex;
+   flex-direction: column;
+
+ 
+}
+
+.internship_post h2{
+
+    margin-left:5%;
+    margin-top:20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    text-align:left;
+    color:#555555;
+}
+
+.internship_info{
+
+ display: flex;
+ margin:auto;
+ width:90%;
+ justify-content: center;
+margin-top: -20px;
+justify-content: flex-start;
+
+      
+}
+
+.internship_info span{
+    width:30%;
+    display:flex           ;
+    justify-content:flex-start;
+    align-items:center;
+   
+}
+
+.internship_info span img{
+    all:unset;
+    width:15px;
+    height:15px;
+}
+
+.internship_info span p{
+    margin-left:15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 11px;
+    text-align:justify;
+
+    color:#555555;
+}
+
+
+.Inter_container{
+    width:65%;
+    height:900px;
+ 
+}
+
+
+@media (max-width:769px){
+    .Inter_container{
+        width:100%;
+    }
+}
+
+@media (max-width:320px){
+
+
+    .internship_post h2{
+        font-size: 17px;
+    }
+
+    .internship_info span{
+        width:50%;
+        
+       
+    }
+}

@@ -42,7 +42,7 @@ function Header(props){
 			
 		
 		
-		<nav className= "header_nav">
+		<nav className= { MobileValue ? "header_nav animate": "header_nav"}>
 			<div className={classes.image}>
 				<a href="/"><img className="main_logo" src={logo}	/></a> 
 			</div>
@@ -137,7 +137,7 @@ function Header1(props){
 		<div>
 		
 		
-		<nav className="header_nav">
+		<nav className= { MobileValue ? "header_nav animate": "header_nav"}>
 			<div className={classes.image}>
 				<a href="/"><img className="main_logo" src={changes? whitelogo : logo }	/></a> 
 			</div>
@@ -171,7 +171,7 @@ function Header1(props){
 
 			
 				<ul className="header_list">
-					<li ><NavLink to="/"	className= "Nav_Link"	  id={showMobileValue?"home_change1":"home_change"} onClick={()=>{setChanges(false)}}>Home</NavLink></li>
+					<li ><NavLink to="/"	className= "Nav_Link"	  id={showMobileValue && MobileValue ?"home_change1":"home_change"} onClick={()=>{setChanges(false)}}>Home</NavLink></li>
 
 					<li><NavLink  to="/productDeals"		className={peepValue ? "Nav_Link_white" : "Nav_Link"}		onClick={()=>{setChanges(false); setPeepValue(false)}}	>Product Details</NavLink></li>
 					
@@ -249,10 +249,10 @@ function Header2(props){
 	
 	const [showDownloadOptions , setDownloadOptions]= useState(false)
 	const [ModalValue, setModalValue] = useState(false)
-	const [changes , setChanges] = useState(true); 
 
+	const [MobileValue, showMobileValue] = useState(false);
 	const [peepValue , setPeepValue] = useState(true); 
-	
+
 
 
 	function showOption(){
@@ -262,92 +262,84 @@ function Header2(props){
 	}
 
 
-	function changeHome(){
-		setChanges(true)
-	}
+	
+
 
 
     return(
 		<div>
 		
-		
-		<nav className="header_nav">
+	
+		<nav className= { MobileValue ? "header_nav animate": "header_nav"}>
 			<div className={classes.image}>
-				<a href="/"><img src={changes? whitelogo : logo}	/></a> 
+				<a href="/"><img src={whitelogo}	/></a> 
 			</div>
+			<img className ="mobile_menu" src={mobile_menu_white} alt="Image Not Found" onClick={()=>{showMobileValue(true)}}/>
+		
+
 			
-			<div className="navlinks">
-				<ul className="header_list">
-					<li ><NavLink to="/"	className= "Nav_Link"	  id="home_change" onClick={()=>{setChanges(false)}}>HOME</NavLink></li>
+			<div className= { MobileValue ? "navlinks animate": "navlinks"} onClick={()=>{showMobileValue(false)}} >
+				<div className="header_socials_link">
+						<li><a href="">		<i className="fab fa-facebook-f"></i>		</a></li>
+						<li><a href="">		<img src={instagram} style={{width:"16px",margin:"auto"}}/>		</a></li>
+						<li><a href="">		<i className="fab fa-twitter"></i>			</a></li>
+						<li><a href="">		<i className="fas fa-podcast"></i>			</a></li>
+						<li></li>
+				</div>
+			
+				<ul className="footer_links">
 
-					<li><NavLink  to="/productDeals"		className={peepValue ? "Nav_Link_white" : "Nav_Link"}		onClick={()=>{setChanges(false); setPeepValue(false)}}	>Product Details</NavLink></li>
+					<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep News</Link></li>
+
+					<li><Link to="/faq"		className="Nav_Link"		 	>FAQ</Link></li>
+
+					<li><a href="" >Careers</a></li>
+
+					<li><Link to="/legal"		className="Nav_Link"			>Legal</Link></li>
+
+					<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
+
+				</ul>
+
+			
+				<ul className="header_list" style={!MobileValue ? {borderRight:"3px solid white"}:{}}>
+					<li ><NavLink to="/"	className= "Nav_Link"	  id={!MobileValue ? "home_change":"home_change1"} >HOME</NavLink></li>
+
+					<li><NavLink  to="/productDeals"		className={!MobileValue ? "Nav_Link_white" : "Nav_Link"}			>Product Details</NavLink></li>
 					
-					<li><NavLink  to="/mission"		className={peepValue ? "Nav_Link_white" : "Nav_Link"}				onClick={()=>{changeHome(); setPeepValue(false)}}	>Mission & Vision</NavLink></li>
+					<li><NavLink  to="/mission"		className={!MobileValue ? "Nav_Link_white" : "Nav_Link"}			>Mission & Vision</NavLink></li>
 
-					<li><NavLink  to="/peepTribe"		className={peepValue ? "Nav_Link_white" : "Nav_Link"}	
+					<li><NavLink  to="/peepTribe"		className={!MobileValue ? "Nav_Link_white" : "Nav_Link"}	
 						style={isActive => ({
 						
-							color: peepValue ? "white" : null,
-							borderBottom:peepValue ? "3px solid white" :null,
-							borderBottomRadius:peepValue ? "5px" :null,
+							color: !MobileValue ? "white" : null,
+							borderBottom:!MobileValue ? "3px solid white" :null,
+							borderBottomRadius:!MobileValue? "5px" :null,
 							
 
-						})} onClick={()=>{setPeepValue(true);setChanges(true) }}	
+						})} onClick={()=>{setPeepValue(true)}}	
 					>Peep Tribe</NavLink></li>
 					
-					<li><NavLink  to="/contact"		className={peepValue ? "Nav_Link_white" : "Nav_Link"}			onClick={()=>{changeHome(); setPeepValue(false)}} >Contact</NavLink></li>
+					<li><NavLink  to="/contact"		className={	!MobileValue ? "Nav_Link_white" : "Nav_Link"}			 >Contact</NavLink></li>
 					
 				</ul>
 				
 
-				
+				<div className="headerr_btn">
 
 				<button style={{
 				fontFamily: "Poppins",
 				fontStyle: "normal",
 				fontWeight: "600",
-				fontSize: "11px",
-				}}	className={peepValue ? "header_btn_white" : "header_btn"} onClick={showOption}>Download App</button>
-
+				fontSize: "11px",}}	className={!MobileValue  ? "header_btn_white" : "header_btn" } 													onClick={showOption}>Download App</button>
+				</div>
 			</div>   
-
-
-
-			
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
 	
 		</nav>
 		
 		{showDownloadOptions ? <DownloadOption onClick={showOption } /> : null }
 		{ModalValue ? <Modal onClick={showOption}/> : null}
-
+		{MobileValue ? <Modal onClick={()=>{showMobileValue(false)}}/> : null}
 
 		</div>
 

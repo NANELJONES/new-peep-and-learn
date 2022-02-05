@@ -1,9 +1,7 @@
 
 
 .grid_container1 {
- 
     margin:0px auto;
-   
     width: 830px;
     height: 520px;
     display:flex;
@@ -68,8 +66,7 @@ overflow: hidden;
    
     width:23%%;
     height:45%;
-    text-align:center;
-    overflow: hidden;
+
 
 }
 
@@ -94,4 +91,37 @@ overflow: hidden;
     width:100%;
     object-fit: cover;
     height:100%;
+}
+
+
+@media (max-width:769px){
+    .grid_container1 {
+ 
+        margin:0px auto;
+       
+        width: 720px;
+        height: 480px;
+    }
+}
+
+
+@media (max-width:481px){
+    .grid_container1 {
+       
+        margin:0px auto;
+       
+        width: 440px;
+        height: 300px;
+    }
+}
+
+
+@media (max-width:320px){
+    .grid_container1 {
+      
+        margin:0px auto;
+       
+        width: 300px;
+        height: 200px;
+    }
 }

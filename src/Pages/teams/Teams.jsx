@@ -12,7 +12,7 @@ function Teams(props){
         <div className="Team_body">
 
             <div className="Teams_info" >
-                        <div className="team_pic" style={{backgroundImage:`url(${manage})`,backgroundSize:"120%", backgroundPosition:"center",backgroundRepeat:"no-repeat"}} >
+                        <div className="team_pic" style={{backgroundImage:`url(${manage})`, backgroundPosition:"center",backgroundRepeat:"no-repeat"}} >
                            
                         </div>
                         <div className="team_info">
@@ -24,7 +24,7 @@ function Teams(props){
 
 
             <div className="Teams_info" >
-                        <div className="team_pic" style={{backgroundImage:`url(${creative})`,backgroundSize:"120%", backgroundPosition:"center",backgroundRepeat:"no-repeat"}} >
+                        <div className="team_pic" style={{backgroundImage:`url(${creative})`, backgroundPosition:"center",backgroundRepeat:"no-repeat"}} >
                            
                         </div>
                         <div className="team_info">
@@ -35,7 +35,7 @@ function Teams(props){
             </div>
 
             <div className="Teams_info" >
-                        <div className="team_pic" style={{backgroundImage:`url(${dev})`,backgroundSize:"120%", backgroundPosition:"center",backgroundRepeat:"no-repeat"}} >
+                        <div className="team_pic" style={{backgroundImage:`url(${dev})`, backgroundPosition:"center",backgroundRepeat:"no-repeat"}} id="last_image" >
                            
                         </div>
                         <div className="team_info">
@@ -49,7 +49,7 @@ function Teams(props){
             </div>
 
             <div className="Teams_info" >
-                        <div className="team_pic" style={{backgroundImage:`url(${analysis})`,backgroundSize:"120%", backgroundPosition:"center",backgroundRepeat:"no-repeat"}} >
+                        <div className="team_pic" style={{backgroundImage:`url(${analysis})`, backgroundPosition:"center",backgroundRepeat:"no-repeat"}} >
                            
                         </div>
                         <div className="team_info">

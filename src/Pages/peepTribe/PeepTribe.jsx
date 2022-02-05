@@ -43,9 +43,9 @@ return(
         
                 <ul class="sub_nav">
 
-                <li><button  style={showValue==1?{border:"1px solid white", borderRadius:"30px"}: null}  onClick={()=> setShowValue(1)}>Profile</button></li>
-                <li><button  style={showValue==2?{border:"1px solid white", borderRadius:"30px"}: null}  onClick={()=> setShowValue(2) }>Teams</button></li>
-                <li><button   style={showValue==3?{border:"1px solid white", borderRadius:"30px"}: null} onClick={()=> setShowValue(3)}>Intern Space</button></li>
+                   <button  style={showValue==1?{border:"1px solid white", borderRadius:"30px", backgroundColor:"transparent",color:"white"}: null}  onClick={()=> setShowValue(1)}>Profile</button>
+                    <button  style={showValue==2?{border:"1px solid white", borderRadius:"30px"}: null}  onClick={()=> setShowValue(2) }>Teams</button>
+                   <button   style={showValue==3?{border:"1px solid white", borderRadius:"30px"}: null} onClick={()=> setShowValue(3)}>Intern Space</button>
 
                 </ul>
 
