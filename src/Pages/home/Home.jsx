@@ -15,24 +15,25 @@ function Home(){
     return(
         <div className="home_container">
             <Header/>
-       
+
             <div className="main_information">
                 <div className="left">
-                <div className="peep">
-                    <h1>Peep  </h1>
-                    <h1> and Learn </h1>
-                </div>
+                    <div className="peep">
+                        <h1>Peep  </h1>
+                        <h1> and Learn </h1>
+                    </div>
                 
                 <h6>An interactive educational hub</h6>
                 
                 <br/>
-                <br/>
+             
                 <div className="line"> </div>
                 
-                <br/>
-                <p>that endeavors to connect students, parents and teachers on an innovative, fun and interactive platform for best results in our national academic curriculum. With our Home Tuition service, E-library and Online Tuition service, we help students learn the easy and convenient way.</p>
+              
+                <p>Peep & Learn as a company is in the business of developing technological frameworks and modules targeted at making education accessible and simplified for its stakeholders (parents, teachers and students). The flexibility of the platform allows for the infusion of cultural presets, study curriculums and standards unique to each country where is it adopted.</p>
             
-                <br/>
+                <div className="line2"> </div>
+            
             
               <Link to="/mission" ><button style={{fontFamily:"Poppins"}}> Mission & Vision </button></Link>  
                     
@@ -46,15 +47,17 @@ function Home(){
                            
                            
                             
-                         <img src={img1} alt="Image Not Found"/>
+                             <img src={img1} alt="Image Not Found"/>
                         </div>
+
                         <div className="slide">
                            
-                       <img src={img2}  alt="Image Not Found"/> 
+                          <img src={img2}  alt="Image Not Found"/> 
                         </div>
+
                         <div className="slide">
                          
-                        <img src={img3}  alt="Image Not Found"/>    
+                           <img src={img3}  alt="Image Not Found"/>    
                         </div>
                     </div>      
 

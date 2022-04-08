@@ -54,7 +54,7 @@ body{
 .image_holder1{
     all:unset;
     width: 850px;
-    height: 510px;
+    max-height: 510px;
     background-color: #ECEFF1;;
     border-radius: 20px;
     position: absolute;
@@ -95,13 +95,13 @@ body{
 @media (max-width:769px){
 
     .image_holder{
-        width: 650px;
+        width: 90vw;
      
 
     }
 
     .image_holder1{
-        width:650px;
+        width:90vw;
     }
    
 }
@@ -110,8 +110,8 @@ body{
 @media (max-width:481px){
 
     .image_holder{
-        width: 100%;
-        height:20%;
+        width: 100vw;
+        height:auto;
         
         background-color: transparent;
     
@@ -121,7 +121,7 @@ body{
         flex-direction: row;
         overflow-y: scroll;
         background-color: transparent;
-        width: 100%;
+        width: 100vw;
         height:100%;
         margin:auto;
     
@@ -135,7 +135,7 @@ body{
 
 
     .image_holder1{
-        width: 100%;
+        width: 100vw;
         background-color: transparent;
        
         height:20%;

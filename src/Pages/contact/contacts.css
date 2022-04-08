@@ -28,8 +28,7 @@ html,body{
     display: flex;
     align-items: center;
     flex:1 1 100px;
- 
-  
+
  
 }
 
@@ -285,8 +284,8 @@ all:unset;
 
 @media (max-width:769px){
     .contact_box{
-        width:769px;
-        height:1000px;
+        width:100vw;
+        height:100vh;
         background-image: url("../../assets/map.svg");
         background-position: 0 -600px;
         background-size: cover;
@@ -300,13 +299,34 @@ all:unset;
         flex-direction: column;
     }
     .get_in_touch{
+       
+        width:auto;
+        align-items: center;
         flex-direction: row;
-        text-align: center;
-        margin-right: 70px;
+        gap:20px;
+   
+        margin-left:auto ;
+        margin-right: auto;
+        margin-top: 40px;
+
      
        
  
        
+    }
+
+
+    .info_3{
+        width: 100%;
+    }
+
+    .your_name{
+        width:100%;
+    }
+
+    .send_message{
+        width:100%;
+      
     }
 
     .get_in_touch h3{
@@ -328,6 +348,7 @@ all:unset;
         width:100%;
         align-items: center;
         height: 100%;
+      
     
  
     }
@@ -335,8 +356,11 @@ all:unset;
     .form_left{
         border-radius: 20px 20px 0px 0px;;
         width:80%;
-        height:55%;
+        height:55vh;
     }
+
+   
+
     .form_left_info h3{
         text-align: center;
     }
@@ -345,7 +369,7 @@ all:unset;
         border-radius: 00px 00px 20px 20px;;
         width:80%;
 
-        height:45%;
+        height:45vh;
         
         
 
@@ -386,7 +410,9 @@ all:unset;
     }
 .info_2{
     
-    width:10%;
+    width:20%;
+    height: 90%;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -394,232 +420,3 @@ all:unset;
  
 }
 
-@media (max-width:481px){
-    .contact_box{
-        width:481px;
-        height:1000px;
-        background-image: url("../../assets/map.svg");
-        background-position: 0 -600px;
-        background-size: cover;
-       
-        
-    }
-
-    .contact_container{
-        width:100%;
-      
-        flex-direction: column;
-    }
-    .get_in_touch{
-        flex-direction: row;
-        text-align: center;
-        margin-right: 150px;
-     
-       
- 
-       
-    }
-
-    .get_in_touch h3{
-        
-       
-        font-family: Poppins;
-        
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 110.03%;
-        text-align: center;
-
-        color: #FFFFFF;
-            
-    }
-    .form{
-    
-        flex-direction: column;
-        width:100%;
-        align-items: center;
-        height: 100%;
-    
- 
-    }
-
-    .form_left{
-        border-radius: 20px 20px 0px 0px;;
-        width:80%;
-        height:55%;
-    }
-    .form_left_info h3{
-        text-align: center;
-    }
-
-    .form_right{
-        border-radius: 00px 00px 20px 20px;;
-        width:80%;
-
-        height:45%;
-        
-        
-
-    }
-
-    .all_contact_details{
-        margin:auto;
-        width:90%;
-        height:70%;
-        display: flex;
-     
-        
-    }
-    .small_info{
-  
-        width: 90%;
-        height:100%;
-      
-       
-        
-
-    }
-
-    .small_info div:not(:first-child){
-        margin-top:23px;
-    }
-
-    
-
-    .info_1{
-       
-    }
-
-    h3.right_head{
-        margin-top:20px;
-        text-align: center;
-        
-    }
-.info_2{
-    
-    width:10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
- 
-}
-
-@media (max-width:319px){
-    .contact_box{
-        width:319px;
-        height:1000px;
-        background-image: url("../../assets/map.svg");
-        background-position: 0 -600px;
-        background-size: cover;
-       
-        
-    }
-
-    .contact_container{
-        width:100%;
-      
-        flex-direction: column;
-    }
-    .get_in_touch{
-        flex-direction: row;
-        text-align: center;
-        margin-right: 150px;
-     
-       
- 
-       
-    }
-
-    .get_in_touch h3{
-        
-       
-        font-family: Poppins;
-        
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 110.03%;
-        text-align: center;
-
-        color: #FFFFFF;
-            
-    }
-    .form{
-    
-        flex-direction: column;
-        width:100%;
-        align-items: center;
-        height: 100%;
-    
- 
-    }
-
-    .form_left{
-        border-radius: 20px 20px 0px 0px;;
-        width:80%;
-        height:55%;
-    }
-    .form_left_info h3{
-        text-align: center;
-    }
-
-    .form_right{
-        border-radius: 00px 00px 20px 20px;;
-        width:80%;
-
-        height:45%;
-        
-        
-
-    }
-
-    .all_contact_details{
-        margin:auto;
-        width:90%;
-        height:70%;
-        display: flex;
-     
-        
-    }
-    .small_info{
-  
-        width: 90%;
-        height:100%;
-      
-       
-        
-
-    }
-
-    .small_info div:not(:first-child){
-        margin-top:23px;
-    }
-
-    
-
-    .info_1{
-       
-    }
-
-    h3.right_head{
-        margin-top:20px;
-        text-align: center;
-        
-    }
-.info_2{
-    
-    width:10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-
-#send_btn{
-    position: absolute;
-    bottom:40%;
-    right:-25px;
-
-}
- 
-}

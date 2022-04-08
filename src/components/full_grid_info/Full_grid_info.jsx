@@ -31,7 +31,7 @@ function Full_grid_info(){
 
 
         <div style={{
-            height:"2650px"
+            height:"auto"
         }}>
             <Grid1 image1={img1} image2={img2} image3={img3}  image4={img4} image5={img5}/>
             <Grid1 image1={img6} image2={img7} image3={img8}  image4={img9} image5={img10}/>

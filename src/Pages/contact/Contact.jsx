@@ -36,7 +36,7 @@ function Contact(){
                         
                             <form>
                                 
-                                <div >
+                                <div className="your_name" >
                                     <label for="name">Your Name</label>
                                     <input type="text" id="name" name="name"/>
                                 </div>
@@ -55,7 +55,7 @@ function Contact(){
                                         </div>
                                 </div>
                                 
-                                <div>
+                                <div  className="your_name" >
                                     <div className="send_message">
                                     <img id="send_btn" src={send}/>
                                         <label for="message">Message</label>

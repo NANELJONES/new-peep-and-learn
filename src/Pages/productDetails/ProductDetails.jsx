@@ -200,7 +200,7 @@ function ProductDetails(){
                       </div>
                    <p style={{
                        color:"white"
-                   }}>Peep Tribe Technologies</p>
+                   }}>Peep  Technologies</p>
                   
                   </div>
 
@@ -209,9 +209,11 @@ function ProductDetails(){
                   <div className="information2 info_2">
                             <div style={{
                                 borderRadius:"unset",
-                                backgroundColor:"transparent",
+                                background:"transparent",
                                 boxShadow:"none",
-                                border:"none"
+                                border:"none",
+                               
+                                width:"auto"
                             }} className="information1 ">
                                 <div className="top_part">
                                       

@@ -5,17 +5,30 @@ html,body{
    
     }
 
+    body{
+        background-color:  #ECEFF1;;
+    }
+
 .peep_container{
-    
+
+
+    height: auto;
     width:1280px;
+    height: auto;
 
     margin:0px auto;
     padding-top:0px;
     background-color:  #ECEFF1;;
-    overflow: hidden;
+    overflow-y: auto;
+    
     
   
 
+}
+
+.down_there{
+    background-color: #6ebef3;
+    
 }
 
 .peep_top{
@@ -24,6 +37,8 @@ html,body{
     background-image: url("../../assets/image 11.svg");
     background-position: center;  
  display: inline-block;
+ position: relative;
+
     
 }
 
@@ -34,18 +49,21 @@ html,body{
     display: flex;
     
     padding:0px;
+
+ 
 }
 
 .peep_left{
-width:70%;
-height:95%;
+
 box-sizing: border-box;
 padding-top:0px;
 padding:0px;
-display: flex;
-flex-grow: 1;
+
+max-height: max-content;
+height: auto;
 
 }
+
 
 
 .peep_right{
@@ -203,14 +221,22 @@ ul.sub_nav  button{
 
 @media (max-width:769px){
    .peep_container{
-       width:769px;
+       width:100vw;
+       height: 100vh;
+     
    }
 
 
 
    ul.sub_nav{
-       width:50%;
-    margin:28% auto 0px auto;
+    margin: unset;
+       width:100%;
+        position: absolute;
+       bottom:5%;
+      
+       
+      
+        
    }
    .peep_right{
        display: hidden;
@@ -226,21 +252,13 @@ ul.sub_nav  button{
 
 
 @media (max-width:481px){
-    .peep_container{
-        width:481px;
-        
-    }
+  
     .peep_top{
         border:2px solid rgb(184, 247, 236);
     }
  
  
-    ul.sub_nav{
-       
-        width:70%;
-     margin:44% auto 0px auto;
-     height: 15%;
-    }
+ =
     .peep_right{
         display: hidden;
         width:0%;
@@ -271,12 +289,6 @@ ul.sub_nav  button{
     }
  
  
-    ul.sub_nav{
-       
-        width:70%;
-     margin:70% auto 0px auto;
-     height: 10%;
-    }
     .peep_right{
         display: hidden;
         width:0%;

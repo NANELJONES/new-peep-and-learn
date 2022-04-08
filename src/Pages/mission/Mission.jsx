@@ -27,7 +27,7 @@ function Mission(){
                                 <div className="info_holder">
                                     <span>Mission</span>
                                 
-                                    <p>To provide unadulterated educational solutions infrastructure focused on the national academic curricular for students in Upper Primary through Senior High School level by means of online and offline innovations.</p>
+                                    <p>To provide unadulterated educational solutions and infrastructure focused on academic curriculums peculiar to each host country in Africa for all students (Primary and Secondary) by means of online and offline innovation.</p>
                                 
                                 </div>
                         </div>
@@ -37,7 +37,7 @@ function Mission(){
                                 <div className="info_holder">
                                     <span id="vision" >Vision</span>
                                 
-                                    <p >We seek to become the national hub for technologically oriented education in and out of the traditional classroom.</p>
+                                    <p >We seek to become the hub for technologically oriented education in and out of the traditional classroom system in Africa.</p>
                                 </div>
                         </div>
 
@@ -48,16 +48,16 @@ function Mission(){
                                 
                                 
                         
-                                    <p>1. To make out of class tuition and studying easy and result oriented for all students irrespective of the school they attend.<br/>
+                                    <p>1. 	To revolutionize equal educational opportunities, resources, and infrastructure to all students from upper primary to senior high levels all within the various host countries in Africa through the means of technology.<br/>
                                         <br/>
 
-                                        2. To revolutionize equal educational opportunities, resources and infrastructure to all students from upper primary to senior high levels all over the country through the means of technology.<br/>
+                                        2. 	To make out of class tuition and studying easy and result oriented for all students irrespective of the school they attend.<br/>
                                         <br/>
-                                        3. To make it possible for any student anywhere to get access to diverse teachers from any school for educational assistance and materials and learning assistance both online and offline.<br/>
+                                        3. 	To foster a healthy teacher-student relationship by providing students access to diverse teachers for learning materials and prompt academic assistance. <br/>
                                         <br/>
-                                        4. For students to enjoy e-library materials which include; syndicated video and audio tutorials, examinable question banks/Past questions with solutions and other electronically enhanced materials tailored for our educational system.<br/>
+                                        4. 	For students to experience beautiful learning experiences with electronically enhanced educational materials from our e-library which has; syndicated videos and audio tutorials, examinable question banks/past questions tailored to suit the educational system of the host country.<br/>
                                         <br/>
-                                        5. Create great and healthy student relations and a beautiful learning experience.
+                                   
                                     </p>
                                 </div>
                         </div>

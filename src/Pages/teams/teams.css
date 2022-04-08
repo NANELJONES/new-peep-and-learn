@@ -4,6 +4,10 @@ body{
     margin:0px;
 }
 
+
+.Team_body p{
+        color:rgb(20, 20, 20);
+}
 .Team_body .Teams_info:not(:first-child){
     
     margin-top:30px;

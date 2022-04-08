@@ -138,9 +138,12 @@ function Header1(props){
 		
 		
 		<nav className= { MobileValue ? "header_nav animate": "header_nav"}>
+			
 			<div className={classes.image}>
 				<a href="/"><img className="main_logo" src={changes? whitelogo : logo }	/></a> 
 			</div>
+
+
 			<img className ="mobile_menu" src={mobile_menu_white} alt="Image Not Found" onClick={()=>{showMobileValue(true)}}/>
 			
 			
@@ -272,8 +275,9 @@ function Header2(props){
 	
 		<nav className= { MobileValue ? "header_nav animate": "header_nav"}>
 			<div className={classes.image}>
-				<a href="/"><img src={whitelogo}	/></a> 
+				<a href="/"><img className="main_logo" src={whitelogo}	/></a> 
 			</div>
+
 			<img className ="mobile_menu" src={mobile_menu_white} alt="Image Not Found" onClick={()=>{showMobileValue(true)}}/>
 		
 
@@ -303,7 +307,7 @@ function Header2(props){
 
 			
 				<ul className="header_list" style={!MobileValue ? {borderRight:"3px solid white"}:{}}>
-					<li ><NavLink to="/"	className= "Nav_Link"	  id={!MobileValue ? "home_change":"home_change1"} >HOME</NavLink></li>
+					<li ><NavLink to="/"	className= "Nav_Link"	  id={!MobileValue ? "home_change":"home_change1"} >Home</NavLink></li>
 
 					<li><NavLink  to="/productDeals"		className={!MobileValue ? "Nav_Link_white" : "Nav_Link"}			>Product Details</NavLink></li>
 					

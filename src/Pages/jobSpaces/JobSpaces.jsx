@@ -16,7 +16,7 @@ function JobSpaces() {
             <div className="jobspaces_top">
 
                 <h1  className="job_heading">User Interface (UI) Designer</h1>
-              <span style={{display:"flex", marginLeft:"50%"}}> <img src={person} style={{color:"white"}}/>     <p style={{color:"white", fontFamily:"Poppins", marginLeft:"3px"}}>Male/Female</p>   </span> 
+            
 
             </div>
 

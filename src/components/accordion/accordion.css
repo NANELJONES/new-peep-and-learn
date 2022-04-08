@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     gap:20px;
-    float:left;
+    margin:auto;
     margin-top:10px;
     padding:10px 0px;
   
@@ -112,10 +112,6 @@ color: #969696;
 
 
 
- .title i{
-     float:right;
- }
-
  
 
  .content{
@@ -185,7 +181,7 @@ color: #969696;
 
 .faq_nav button {
     border:none;
-    border-radius: 20px;
+    border-radius: 100px;
     background-color: none;
 
 }
@@ -200,4 +196,41 @@ color: #969696;
   
     overflow-y:scroll;
     margin-top:10px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    width:100%
+}
+
+@media (max-width:769px) {
+
+  
+   #all_acc{
+       height: auto;
+       width:100%;
+       
+   }
+
+
+   #search_box{
+       width:100%;
+ 
+   }
+   
+ 
+    .faq_nav{
+       all:unset;
+       display: flex;
+       width:80%;
+       margin:0px auto;
+       align-items: center;
+    }
+
+    .item{
+        width:100%;
+    }
+
 }

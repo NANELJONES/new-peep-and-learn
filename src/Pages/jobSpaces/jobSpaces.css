@@ -6,6 +6,12 @@ div .jobspaces_top{
     display: inline-block;
 }
 
+.jobspaces_top span{
+    position: absolute;
+    left: 50%;
+    right:50%;
+}
+
 .jobspaces_top h1{
     font-family: Poppins;
     font-style: normal;
@@ -96,9 +102,45 @@ color: #555555;
         line-height: 18px;
         background: linear-gradient(90deg, #0B77BE 12.08%, #0C92DD 84.9%);
         border-radius: 16px;
+        position: absolute;
+   
+      left:50%;
+      transform:translate(-50%);
+        
+        
+}
+
+@media (max-width:769px){
+    div .jobspaces_top{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         position: relative;
-       margin-left: 45%;
-       cursor:pointer;
-        
-        
+     
+    }
+
+    .jobspaces_top h1{
+        font-size: 6vw;
+        width:100%;
+        position: absolute;
+        bottom: 50%;
+        top:30%;
+       
+    }
+
+    .jobspaces_top span{
+    
+
+    position:absolute;
+    left:0%;
+    bottom:0%;
+   
+    border: 1px solid black;
+
+
+    
+   
+    }
+
 }
