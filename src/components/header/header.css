@@ -409,6 +409,8 @@ body{
     padding-top:10px;
     padding-left:10px;
     gap:20px;
+    -webkit-column-gap:20px;
+    
     transition: 1s ease;
   
   
@@ -435,6 +437,7 @@ body{
     flex-direction: column;
     margin:0px;
     gap:20px;
+    -webkit-column-gap:20px;
     overflow: hidden;
  
 }
@@ -565,6 +568,7 @@ body{
     padding-top:10px;
     padding-left:10px;
     gap:20px;
+    -webkit-column-gap:20px;
     transition: 1s ease;
   
   
@@ -591,6 +595,7 @@ body{
     flex-direction: column;
     margin:0px;
     gap:20px;
+    -webkit-column-gap:20px;
     overflow: hidden;
  
 }

@@ -15,15 +15,15 @@ function Footer(){
 
 	const [activeValue, setIsActive] =  useState("0")
 	useEffect(() => {
-		if(location.pathname=="/peepNews"){
+		if(location.pathname==="/peepNews"){
 			setIsActive("1");
 		}
 		
-		if(location.pathname=="/faq"){
+		if(location.pathname==="/faq"){
 			setIsActive("2");
 		}
 
-		if(location.pathname=="/legal"){
+		if(location.pathname==="/legal"){
 			setIsActive("3");
 		}
 
@@ -50,7 +50,7 @@ function Footer(){
 	
 		<li><Link to="/legal"		onClick={()=>{setIsActive("3")}}		 style={activeValue=="3"?{color:"#0B77BE",fontWeight:"600"}:null}		>Legal</Link></li>
 		
-		<li><a href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
+	
 		
 	</ul>
 </div>
@@ -78,7 +78,7 @@ function Footer1(){
 		<li><Link to="/faq">FAQ</Link></li>
 		<li><a href="">Careers</a></li>
 		<li><Link to="/legal">Legal</Link></li>
-		<li><a href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
+		
 		
 	</ul>
 </div>

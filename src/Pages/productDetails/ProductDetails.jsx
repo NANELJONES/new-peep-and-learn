@@ -246,7 +246,7 @@ function ProductDetails(){
                                         }}>Key Supporters</h2>
                             
                                 </div>
-                                       <p>  Zoom, Global Paymnet (API) <br/>mNotify, Publication Houses, <br/>Warmkeys, Project 21, GC Net</p>
+                                       <p>  Zoom, Global Paymnet (API), mNotify, Publication Houses, Warmkeys, Project 21, GC Net</p>
                             </div>
                       
                   </div>

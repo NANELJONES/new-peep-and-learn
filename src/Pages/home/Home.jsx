@@ -35,7 +35,7 @@ function Home(){
                 <div className="line2"> </div>
             
             
-              <Link to="/mission" ><button style={{fontFamily:"Poppins"}}> Mission & Vision </button></Link>  
+              <Link to="/mission" style={{textDecoration:"none"}} ><button style={{fontFamily:"Poppins"}}> Peep Mission & Peep Vision </button></Link>  
                     
                 </div>
 

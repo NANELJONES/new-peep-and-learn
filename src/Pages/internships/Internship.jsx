@@ -31,14 +31,15 @@ function Singuler_Intern(props){
 }
 
 
+
 function Internship() {
     return (
         <div className="Inter_container" >
 
                 <div >
-             <NavLink to = "/jobspaces" style={{all:"unset"}}>  < Singuler_Intern Intern_Heading="User Interface (UI) Designer" Gender="Male/Female" Time ="Today" /></NavLink> 
+            {/*<NavLink to = "/jobspaces" style={{all:"unset"}}>*/}   < Singuler_Intern Intern_Heading="User Interface (UI) Designer" Gender="Male/Female" Time ="Today" />     {/*</NavLink> */}
                 
-                < Singuler_Intern Intern_Heading="Customer Service Representative (CSR)" Gender="Male/Female"    Time ="Yesterday" />
+                < Singuler_Intern Intern_Heading="Customer Service Representative (CSR)" Gender="Male/Female"    Time ="Yesterday"  />
                 < Singuler_Intern Intern_Heading="Front-end Developer" Gender="Female" Time ="Yesterday" />
                 < Singuler_Intern Intern_Heading="Marketing Personnel" Gender="Male" Time ="4 days ago" />
                     

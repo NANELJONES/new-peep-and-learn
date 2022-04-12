@@ -35,14 +35,14 @@ function Right_info_2(props){
             <div className="stats_info">      
                 <div className="b_left">
                       <img src={male_icon}/>
-                       <h4>30%</h4>
+                       <h4>60%</h4>
                 </div>
 
                 <div id="short_line"></div>
 
                 <div className="b_left">
                      <img src={female_icon}/>
-                      <h4>70%</h4>
+                      <h4>40%</h4>
                 </div>
         </div>               
 </div>
