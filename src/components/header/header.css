@@ -254,8 +254,8 @@ body{
     justify-content: flex-end;
     padding-top:10px;
     padding-left:10px;
-    gap:20px;
-    transition: 1s ease;
+   /* gap:20px;*/
+       transition: 1s ease;
   
   
     
@@ -283,11 +283,18 @@ body{
     align-items: flex-start;
     flex-direction: column;
     margin:0px;
-    gap:20px;
+    /*gap:20px*/
     overflow: hidden;
+    justify-content: space-evenly;
    
  
 }
+.navlinks button{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
 
 
 .Nav_Link{
@@ -408,8 +415,8 @@ body{
     justify-content: flex-end;
     padding-top:10px;
     padding-left:10px;
-    gap:20px;
-    -webkit-column-gap:20px;
+ 
+    /*gap:20px*/
     
     transition: 1s ease;
   
@@ -436,8 +443,9 @@ body{
     align-items: flex-start;
     flex-direction: column;
     margin:0px;
-    gap:20px;
-    -webkit-column-gap:20px;
+    /*gap:20px;*/
+
+    justify-content: space-around;
     overflow: hidden;
  
 }
@@ -567,8 +575,7 @@ body{
     justify-content: flex-end;
     padding-top:10px;
     padding-left:10px;
-    gap:20px;
-    -webkit-column-gap:20px;
+    
     transition: 1s ease;
   
   
@@ -594,8 +601,8 @@ body{
     align-items: flex-start;
     flex-direction: column;
     margin:0px;
-    gap:20px;
-    -webkit-column-gap:20px;
+    /*gap:20px;*/
+    justify-content: space-around;
     overflow: hidden;
  
 }
