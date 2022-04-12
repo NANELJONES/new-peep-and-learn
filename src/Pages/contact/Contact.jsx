@@ -57,17 +57,20 @@ function Contact(){
                                 
                                 <div  className="your_name" >
                                     <div className="send_message">
-                                    <img id="send_btn" src={send}/>
+                                       
                                         <label for="message">Message</label>
                                         <textarea></textarea>
-                                        <button><img src={mess_btn}/></button>
+                                       
                                     </div>
                                 </div>
+
+                                
 
 
 
                                 </form>
                         </div>
+                        <button><img id="send_btn" src={send}/></button>
                     </div>
 
 
@@ -82,14 +85,20 @@ function Contact(){
                                             <p>A06, Hydraform Estate <br/>- Spintex Road</p>
                                         </div>
                                         
-                                        <div className="info_1">
+                                        <div className="info_1 ">
                                             <img src={phone}/>
-                                            <p>0302822062 / 0501529511</p>
+                                            <div className="phone_num">
+                                            <p>Ghana:<br/>0302822062 <br/>+233595818766 <br/></p>
+                                            <p>Zambia:<br/>+260769284073 <br/>+260769284391</p>
+
+                                            </div>
+                                          
                                         </div>
 
                                         <div className="info_1">
                                             <img src={message}/>
                                             <p>info@peepandlearn.com<br/>business@peepandlearn.com</p>
+                                            
                                         </div>
 
                                        
