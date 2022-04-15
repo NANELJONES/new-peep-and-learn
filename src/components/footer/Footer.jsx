@@ -42,7 +42,7 @@ function Footer(){
 		<li></li>
 		
 
-		<li><Link to="/peepNews"		onClick={()=>{setIsActive("1")}}		 style={activeValue=="1"?{color:"#0B77BE",fontWeight:"600"}:null}	>Peep News</Link></li>
+		<li><Link to="/peepNews"		onClick={()=>{setIsActive("1")}}		 style={activeValue=="1"?{color:"#0B77BE",fontWeight:"600"}:null}	>Peep Blog</Link></li>
 	
 		<li><Link to="/faq"			onClick={()=>{setIsActive("2")}}		 style={activeValue=="2"?{color:"#0B77BE",fontWeight:"600"}:null}	>FAQ</Link></li>
 	
@@ -74,7 +74,7 @@ function Footer1(){
 		<li><a href="">		<i className="fas fa-podcast"></i>			</a></li>
 		<li></li>
 		
-		<li><Link to="/peepNews"		>Peep News</Link></li>
+		<li><Link to="/peepNews"		>Peep Blog</Link></li>
 		<li><Link to="/faq">FAQ</Link></li>
 		<li><a href="">Careers</a></li>
 		<li><Link to="/legal">Legal</Link></li>

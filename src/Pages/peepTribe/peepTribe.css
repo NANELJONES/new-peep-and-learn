@@ -253,12 +253,10 @@ ul.sub_nav  button{
 
 @media (max-width:481px){
   
-    .peep_top{
-        border:2px solid rgb(184, 247, 236);
-    }
+  
  
  
- =
+ 
     .peep_right{
         display: hidden;
         width:0%;

@@ -391,14 +391,22 @@
         
     }
     .left h1{
-        font-size: 3rem;
+        font-size: 12vw;
         line-break: 0px;
     }
 
     .left h6{
-        font-size: 15px;
+        font-size: 8vw;
         line-break: 0px;
         margin-top:00px;
+    }
+
+    .left p {
+        font-size: 4vw;
+    }
+
+    .peep{
+        flex-direction: row;
     }
 
 }

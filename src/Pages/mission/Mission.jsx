@@ -25,7 +25,7 @@ function Mission(){
                         <div className="idea_1">
                                 <img src={bulb_icon}/>
                                 <div className="info_holder">
-                                    <span>Mission</span>
+                                    <span>Peep Mission</span>
                                 
                                     <p>To provide unadulterated educational solutions and infrastructure focused on academic curriculums peculiar to each host country in Africa for all students (Primary and Secondary) by means of online and offline innovation.</p>
                                 
@@ -35,7 +35,7 @@ function Mission(){
                         <div className="idea_1">
                                 <img src={vision}/>
                                 <div className="info_holder">
-                                    <span id="vision" >Vision</span>
+                                    <span id="vision" >Peep Vision</span>
                                 
                                     <p >We seek to become the hub for technologically oriented education in and out of the traditional classroom system in Africa.</p>
                                 </div>
@@ -44,7 +44,7 @@ function Mission(){
                         <div className="idea_1">
                                 <img src={goals}/>
                                 <div className="info_holder">
-                                    <span id="goals">Goals & Milestones</span>
+                                    <span id="goals">Peep Goals & Milestones</span>
                                 
                                 
                         

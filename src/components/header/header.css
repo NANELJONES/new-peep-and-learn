@@ -227,7 +227,9 @@ body{
       position: relative;
       left: 0%;
       top:10%;
+      /*game*/
       transform: translate(0%,10%);
+      border: 1px solid;
     }
    
 
@@ -309,7 +311,7 @@ body{
 }
 
 
-.header_btn{
+.header_btn, .headerr_btn{
    
     margin:0px;
   
@@ -463,7 +465,7 @@ body{
 }
 
 
-.header_btn{
+.header_btn, .headerr_btn{
    
     margin:0px;
   

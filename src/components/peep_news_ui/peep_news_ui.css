@@ -9,6 +9,9 @@ body{
     background-color: #ECEFF1;
     overflow: hidden;
 }
+.blog_feed h3{
+    font-family: Poppins;
+}
 
 .news_body{
    
@@ -30,7 +33,7 @@ body{
 .new_picture{
     width:70%;
     height:50%;
-    background-color: blueviolet;
+    background-color: rgb(195, 195, 195);
     border-radius: 10px;
     box-shadow: 2.98501px 2.98501px 7.96003px rgba(0, 0, 0, 0.15);
     overflow:hidden;
@@ -38,8 +41,8 @@ body{
 
 
 .new_picture img{
-    width:106%;
-    height:106%;
+    width:100%;
+    height:100%;
     object-fit: cover;
 }
 
@@ -70,3 +73,54 @@ body{
     
 
 }
+
+@media (max-width:769px) {
+
+    
+    .news_ui {
+        width:100vw;
+        height: auto;
+        overflow: visible;
+       
+       
+      
+        
+ 
+       
+    }
+
+.news_body {
+    width:100%;
+    height: 100vh;
+    background-color: transparent;
+  
+   top:30%;
+   transform: translate(-50%, 10%);   
+ 
+   overflow-y: scroll;
+
+}
+
+.new_picture{
+    width: 100%;
+    height:auto;
+
+   
+}
+
+.news_body h1{
+    font-size: 4vw;
+}
+
+.news_body p {
+    
+    width:90%;
+    
+  
+}
+
+
+
+}
+
+

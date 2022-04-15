@@ -60,7 +60,7 @@ function Header(props){
 
 					<ul className="footer_links">
 
-						<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep News</Link></li>
+						<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep Blog</Link></li>
 				
 						<li><Link to="/faq"		className="Nav_Link"		 	>FAQ</Link></li>
 					
@@ -68,7 +68,7 @@ function Header(props){
 					
 						<li><Link to="/legal"		className="Nav_Link"			>Legal</Link></li>
 						
-						<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
+						{/*<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>*/}
 
 					</ul>
 
@@ -86,6 +86,7 @@ function Header(props){
 					</ul>
 
 				<button style={{fontFamily: "Poppins",fontStyle: "normal",fontWeight: "600",	fontSize: "11px",	}}	className={ "header_btn"} onClick={showOption}>Download App</button>
+			
 			</div>   
 			
 	
@@ -159,7 +160,7 @@ function Header1(props){
 			
 				<ul className="footer_links">
 
-					<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep News</Link></li>
+					<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep Blog</Link></li>
 
 					<li><Link to="/faq"		className="Nav_Link"		 	>FAQ</Link></li>
 
@@ -167,7 +168,7 @@ function Header1(props){
 
 					<li><Link to="/legal"		className="Nav_Link"			>Legal</Link></li>
 
-					<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
+					{/*<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>*/}
 
 				</ul>
 
@@ -293,7 +294,7 @@ function Header2(props){
 			
 				<ul className="footer_links">
 
-					<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep News</Link></li>
+					<li><Link to="/peepNews"	className="Nav_Link"		 	>Peep Blog</Link></li>
 
 					<li><Link to="/faq"		className="Nav_Link"		 	>FAQ</Link></li>
 
@@ -301,7 +302,7 @@ function Header2(props){
 
 					<li><Link to="/legal"		className="Nav_Link"			>Legal</Link></li>
 
-					<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>
+					{/*<li><a  href="https://jupeglobal.com/venture-capital/">Jupe Global	</a></li>*/}
 
 				</ul>
 

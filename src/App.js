@@ -53,7 +53,7 @@ return(
                 <Route path="/faq" element={<FAQ/>}/> 
                 <Route path="/legal" element={<Legal/>}/> 
                 <Route path="/job_form" element={<Job_Form/>}/> 
-                <Route path="/peep_news_ui" element={<Peep_News_Ui/>}/> 
+                <Route path="/peep_news_ui/:id" element={<Peep_News_Ui/>}/> 
 
 
              </Routes>

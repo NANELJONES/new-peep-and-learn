@@ -8,7 +8,7 @@ import { useState } from "react";
 import Internship from "../internships/Internship";
 import {Right_info, Right_info_2,Right_info_3} from "../../components/right_info/Right_info.jsx";
 import Full_grid_info from "../../components/full_grid_info/Full_grid_info.jsx";
-import {Header2} from "../../components/header/Header";
+import {Header2,Header1} from "../../components/header/Header";
 
 
 
@@ -36,10 +36,11 @@ return(
 
 
     <div className="peep_container">
-        <Header2/>
+       
      
   
         <div className="peep_top">
+        <Header1/>
         
                 <ul class="sub_nav">
                    <button  style={showValue==1?{border:"1px solid white", borderRadius:"30px", backgroundColor:"transparent",color:"white"}: null}  onClick={()=> setShowValue(1)}>Profile</button>

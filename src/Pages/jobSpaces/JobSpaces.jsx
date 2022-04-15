@@ -4,22 +4,93 @@ import dash from "../../assets/smalldash.svg"
 import {Footer} from "../../components/footer/Footer";
 import {Header2} from "../../components/header/Header"
 import person from "../../assets/white_male_vector.svg"
-import {Link,NavLink } from "react-router-dom";
+import {Link,NavLink,useLocation } from "react-router-dom";
 
 function JobSpaces() {
+
+    const location =  useLocation ()
     return (
-        <div style={{
+
+        <div className = "job_cover" style={{
             body:"100%",
  width:"100%", backgroundColor:"#ECEFF1"
  }}> 
+
+        
        <Header2/>
             <div className="jobspaces_top">
 
-                <h1  className="job_heading">User Interface (UI) Designer</h1>
-            
+                <h1  className="job_heading">{location.state}</h1>
+
+
+             
 
             </div>
 
+
+            <h3 >No Jobs Available</h3>
+
+       
+            <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*             
 
             <div className="job_info">
                 <div className="top_info">
@@ -27,6 +98,8 @@ function JobSpaces() {
                         <h3>Job Description</h3>
                         
                 </div>
+        
+                
                 
                 <p>Dictum ipsum eu cursus tellus a arcu ut massa. Mi sed semper est bibendum mattis dictumst eget mauris. Pulvinar commodo suspendisse eu elit sit vel, accumsan. Mattis nibh bibendum non nisl suscipit placerat consequat, euismod. In lobortis nisl purus tincidunt orci et id at pellentesque. Augue felis natoque porttitor erat ac sit. Dui dictum mi eu curabitur scelerisque.
                     Eget egestas cursus fringilla egestas pretium neque. Posuere proin orci mauris pharetra, nibh. Odio feugiat condimentum ut massa aliquam. Mauris platea hendrerit tortor egestas et erat quis nec. In tincidunt vulputate tortor eget malesuada id purus sem. Enim id nunc vel metus orci lobortis sapien urna.
@@ -117,6 +190,8 @@ function JobSpaces() {
         <br/>
 
         <Link  to="/job_form"	>   <button className="apply_btn">Apply</button>    </Link> 
+*/}
+
         <br/>
         <br/>
         <br/>

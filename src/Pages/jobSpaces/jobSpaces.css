@@ -6,6 +6,23 @@ div .jobspaces_top{
     display: inline-block;
 }
 
+.job_cover  h3{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 121.03%;
+    text-align: center;
+   
+    /* identical to box height, or 22px */
+    
+    text-align: center;
+    
+    color: #555555;
+
+}
+
 .jobspaces_top span{
     position: absolute;
     left: 50%;
@@ -112,7 +129,7 @@ npm
 
 @media (max-width:769px){
     div .jobspaces_top{
-
+        width:100vw;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -128,6 +145,9 @@ npm
         top:30%;
        
     }
+
+
+
 
     .jobspaces_top span{
     
