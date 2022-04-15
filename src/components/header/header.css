@@ -217,19 +217,29 @@ body{
     
     .headerr_btn{
       
-        height:5%;
+        height:8%;
+        width:100%;
+        
+        position: relative;
+
+
       
        
         
  
     }
     .headerr_btn button{
-      position: relative;
-      left: 0%;
-      top:10%;
+        margin:unset;
+      position: absolute;
+      top:-5%;
+      left:0;
+      transform: translate(0,-20%);
+      
+ 
+ 
       /*game*/
-      transform: translate(0%,10%);
-      border: 1px solid;
+   
+    
     }
    
 

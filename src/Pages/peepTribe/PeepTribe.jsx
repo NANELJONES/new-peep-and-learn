@@ -40,7 +40,7 @@ return(
      
   
         <div className="peep_top">
-        <Header1/>
+        <Header2/>
         
                 <ul class="sub_nav">
                    <button  style={showValue==1?{border:"1px solid white", borderRadius:"30px", backgroundColor:"transparent",color:"white"}: null}  onClick={()=> setShowValue(1)}>Profile</button>
