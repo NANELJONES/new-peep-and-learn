@@ -79,11 +79,11 @@ function ProductDetails(){
 
 
 
-              {showLibrary ? <> <Modal onClick={()=>{SetShowLibrary(!showLibrary)}}/> <ImageShower pd__img_1={library3} pd__img_2={library2}  pd__img_3={library1}/> </>: null }
+              {showLibrary ? <> <Modal onClick={()=>{SetShowLibrary(!showLibrary)}}/> <ImageShower pd__img_1={library1} pd__img_2={library2}  pd__img_3={library3}/> </>: null }
           
               {showRevision ? <> <Modal onClick={()=>{SetShowRevision(!showRevision)}}/> <ImageShower pd__img_1={revision1} pd__img_2={revision2}  pd__img_3={revision3}/> </>: null }
 
-              {showMedia ? <> <Modal onClick={()=>{SetShowMedia(!showMedia)}}/> <ImageShower pd__img_1={media1} pd__img_2={media2}  pd__img_3={media3}/> </>: null }
+              {showMedia ? <> <Modal onClick={()=>{SetShowMedia(!showMedia)}}/> <ImageShower pd__img_1={media2} pd__img_2={media1}  pd__img_3={media3}/> </>: null }
 
               {showOs ? <> <Modal onClick={()=>{SetShowOs(!showOs)}}/> <ImageShower1 pd__img_1={os1} pd__img_2={os2} /> </>: null }
 
@@ -246,7 +246,7 @@ function ProductDetails(){
                                         }}>Key Supporters</h2>
                             
                                 </div>
-                                       <p>  Zoom, Global Paymnet (API), mNotify, Publication Houses, Warmkeys, Project 21, GC Net</p>
+                                       <p> Zoom, CometChat, Mnotify, Project 21, PayStack, GC Net, O3 TAP, ENOA, Thriniti Consult</p>
                             </div>
                       
                   </div>

@@ -34,10 +34,12 @@ body{
     box-sizing: border-box;
     padding:8px 25px;
     border-radius: 25px;
-    float:right;
+
     display:flex;
     align-items: center;
     justify-content: space-between;
+    
+
  
     
     
@@ -47,7 +49,9 @@ body{
 #search_box > input{
     all:unset;
     margin-left:10px;
-    flex:1;
+    width:80%;
+   
+    font-family: Poppins;
    
 
 }
@@ -61,6 +65,10 @@ line-height: 18px;
 
 
 color: #969696;
+}
+#search_box >  img{
+
+    width:5%;
 }
 
 
@@ -234,6 +242,10 @@ color: #969696;
 
     .item{
         width:100%;
+    }
+
+    #search_box > input::placeholder{
+        font-size: 3vw;;
     }
 
 }

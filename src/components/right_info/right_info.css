@@ -119,3 +119,27 @@ div.stats_holder #peep_span{
 }
 
 
+
+
+
+
+@media (max-width:391px) {
+
+    
+    div.stats_holder{
+        width:80%;
+     
+       
+        
+    }
+
+    
+
+    div.stats_info h4{
+        font-size: 6vw;
+    }
+
+    div.stats_holder #peep_span{
+        font-size: 3vw;
+    }
+}

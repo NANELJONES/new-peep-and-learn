@@ -1,5 +1,8 @@
 import React from "react";
 
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+
 import {Footer, Footer1} from "../../components/footer/Footer";
 import {Header,Header1} from "../../components/header/Header";
 import whitelogo from "../../assets/logowhite.svg";
@@ -11,6 +14,25 @@ import mess_btn from "../../assets/message.svg"
 import send from "../../assets/send.svg"
 
 function Contact(){
+    const form = useRef()
+    function SendMail(e){
+        const form = useRef()
+
+
+        e.preventDefault();
+
+        emailjs.sendForm('gmail', 'template_sttn6ft', form.current, 'M32h6RRW5j_PWu3wU')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+
+          });
+
+          e.target.reset()
+          {alert("Thank you for contacting us. Your Message has been sent")}
+
+    }
 
     return(
         <div className="contact_box">
@@ -27,14 +49,14 @@ function Contact(){
 
 
 
-                <div className="form">
+                <div className="form"  >
 
                     
                     <div class="form_left">
                         <div className="form_left_info">
                             <h3 className="left_head">Send us a message </h3>
                         
-                            <form>
+                            <form ref={form} onSubmit={SendMail}>
                                 
                                 <div className="your_name" >
                                     <label for="name">Your Name</label>
@@ -59,18 +81,19 @@ function Contact(){
                                     <div className="send_message">
                                        
                                         <label for="message">Message</label>
-                                        <textarea></textarea>
+                                        <textarea name="message"></textarea>
                                        
                                     </div>
                                 </div>
 
                                 
 
-
+                                <button type="submit"><img id="send_btn" src={send} type="submit"  /></button>
 
                                 </form>
                         </div>
-                        <button><img id="send_btn" src={send}/></button>
+
+                    
                     </div>
 
 

@@ -364,6 +364,10 @@ all:unset;
        
     }
 
+    .get_in_touch h1{
+        font-size: 12vw;
+    }
+
 
 
   
