@@ -82,6 +82,8 @@ body,html{
     align-items: center;
     height:20px;
     justify-content: flex-start;
+
+    width:100%;
     
   
 }

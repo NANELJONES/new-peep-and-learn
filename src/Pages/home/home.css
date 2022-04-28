@@ -251,6 +251,9 @@
     html{
         overflow: hidden;
     }
+
+
+
  
 
     .home_container{
@@ -330,8 +333,26 @@
        
             margin:0 auto;
             width:90vw;
+            overflow-x: scroll;
          
         }
+
+      
+            
+            
+            
+            .slider{
+            
+            
+                
+    
+            
+                animation-name:none;
+            
+              
+              
+            
+                }
         h3{
             width:100%;
         }
