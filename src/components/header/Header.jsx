@@ -307,7 +307,7 @@ function Header2(props){
 				</ul>
 
 			
-				<ul className="header_list" style={!MobileValue ? {borderRight:"3px solid white"}:{}}>
+				<ul className="header_list" style={!MobileValue ? {borderRight:"3px solid white"}:{borderRight:"none"}}>
 					<li ><NavLink to="/"	className= "Nav_Link"	  id={!MobileValue ? "home_change":"home_change1"} >Home</NavLink></li>
 
 					<li><NavLink  to="/productDeals"		className={!MobileValue ? "Nav_Link_white" : "Nav_Link"}			>Product Details</NavLink></li>
@@ -322,7 +322,7 @@ function Header2(props){
 							borderBottomRadius:!MobileValue? "5px" :null,
 							
 
-						})} onClick={()=>{setPeepValue(true)}}	
+						})} 
 					>Peep Tribe</NavLink></li>
 					
 					<li><NavLink  to="/contact"		className={	!MobileValue ? "Nav_Link_white" : "Nav_Link"}			 >Contact</NavLink></li>

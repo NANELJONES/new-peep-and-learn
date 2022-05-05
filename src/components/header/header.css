@@ -193,7 +193,18 @@ body{
         z-index: 200;
    
     }
+    .header_btn_white{
+       
+        background: linear-gradient( #0B77BE , #0C92DD );
+        color:white;
+    
+    }
 
+    
+#home_change{
+    color:rgb(33, 33, 33);
+}
+    
     
 
 
@@ -365,7 +376,11 @@ body{
 
 }
 
+.Nav_Link_white{
+    color:rgb(61, 61, 61);
+  
 
+}
 
 
 

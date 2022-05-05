@@ -94,8 +94,7 @@ return(
 
     <div className="peep_container">
        {showStats && size < 769 ? <> <Modal2  onClick={()=>{setShowMobile(false)}}/> </>: null  }
-       
-       {console.log(size)}
+ 
   
         <div className="peep_top">
         <Header2/>
